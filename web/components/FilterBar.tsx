@@ -4,15 +4,18 @@ import { Icons } from './Icons';
 interface FilterBarProps {
     search: string;
     setSearch: (value: string) => void;
-    selectedSource: string;
-    setSelectedSource: (value: string) => void;
+    regions: string[];
     selectedRegion: string;
     setSelectedRegion: (value: string) => void;
-    regions: string[];
+    sectors: string[];
+    selectedSector: string;
+    setSelectedSector: (value: string) => void;
+    selectedSource: string;
+    setSelectedSource: (value: string) => void;
+    showSalaryOnly: boolean;
+    setShowSalaryOnly: (value: boolean) => void;
     sortBy: string;
     setSortBy: (value: string) => void;
-    onlyIT: boolean;
-    setOnlyIT: (value: boolean) => void;
     viewMode: 'grid' | 'list';
     setViewMode: (mode: 'grid' | 'list') => void;
     totalCount: number;
@@ -22,8 +25,9 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     search, setSearch,
     selectedSource, setSelectedSource,
     selectedRegion, setSelectedRegion, regions,
+    selectedSector, setSelectedSector, sectors,
     sortBy, setSortBy,
-    onlyIT, setOnlyIT,
+    showSalaryOnly, setShowSalaryOnly,
     viewMode, setViewMode,
     totalCount
 }) => {
@@ -66,6 +70,18 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                     </select>
 
                     <select
+                        value={selectedSector}
+                        onChange={(e) => setSelectedSector(e.target.value)}
+                        className="px-4 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 max-w-[140px]"
+                    >
+                        {sectors.map(s => (
+                            <option key={s} value={s}>
+                                {s === 'All' ? '전체 업종' : (s === '정보처리' ? 'IT / 정보처리' : s)}
+                            </option>
+                        ))}
+                    </select>
+
+                    <select
                         value={sortBy}
                         onChange={(e) => setSortBy(e.target.value)}
                         className="px-4 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -78,15 +94,20 @@ export const FilterBar: React.FC<FilterBarProps> = ({
 
             <div className="flex items-center justify-between mt-2">
                 <div className="flex items-center gap-2">
-                    <label className={`flex items-center gap-2 px-4 py-2 rounded-full border cursor-pointer transition-all select-none ${onlyIT ? 'bg-blue-600 border-blue-500 text-white shadow-lg shadow-blue-900/50' : 'bg-gray-800 border-gray-700 text-gray-400 hover:border-gray-500'}`}>
-                        <input
-                            type="checkbox"
-                            checked={onlyIT}
-                            onChange={(e) => setOnlyIT(e.target.checked)}
-                            className="hidden"
-                        />
-                        <span className="text-sm font-semibold">💻 정보처리(IT/SW)만 보기</span>
-                    </label>
+                    <button
+                        onClick={() => setShowSalaryOnly(!showSalaryOnly)}
+                        className={`flex items-center gap-2 px-4 py-2.5 rounded-full border transition-all text-sm font-medium ${showSalaryOnly
+                            ? 'bg-green-600/20 border-green-500/50 text-green-400 shadow-lg shadow-green-900/20'
+                            : 'bg-gray-800 border-gray-700 text-gray-400 hover:border-gray-500 hover:text-gray-200'
+                            }`}
+                    >
+                        {showSalaryOnly ? (
+                            <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+                        ) : (
+                            <span className="w-2 h-2 rounded-full bg-gray-600" />
+                        )}
+                        연봉 정보만 보기
+                    </button>
                 </div>
 
                 {/* View Toggle */}

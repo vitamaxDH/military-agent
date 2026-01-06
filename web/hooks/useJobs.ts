@@ -10,8 +10,9 @@ export const useJobs = () => {
     // Filter States
     const [search, setSearch] = useState('');
     const [selectedRegion, setSelectedRegion] = useState('All');
+    const [selectedSector, setSelectedSector] = useState('All');
     const [selectedSource, setSelectedSource] = useState('All');
-    const [onlyIT, setOnlyIT] = useState(false);
+    const [showSalaryOnly, setShowSalaryOnly] = useState(false);
     const [sortBy, setSortBy] = useState('deadline');
 
     // Fetch Data
@@ -43,8 +44,18 @@ export const useJobs = () => {
             .map(j => j.designatedCompanyInfo?.location)
             .filter((loc): loc is string => !!loc); // Type guard to remove undefined
 
-        // Deduplicate
         const unique = new Set(locations);
+        return ['All', ...Array.from(unique)].sort();
+    }, [jobs]);
+
+    // Derived State: Sectors
+    const sectors = useMemo(() => {
+        // Extract sectors from designated company info
+        const sectorList = jobs
+            .map(j => j.designatedCompanyInfo?.sector)
+            .filter((s): s is string => !!s);
+
+        const unique = new Set(sectorList);
         return ['All', ...Array.from(unique)].sort();
     }, [jobs]);
 
@@ -57,17 +68,12 @@ export const useJobs = () => {
 
             const matchesRegion = selectedRegion === 'All' || job.designatedCompanyInfo?.location === selectedRegion;
             const matchesSource = selectedSource === 'All' || job.source === selectedSource;
+            const matchesSector = selectedSector === 'All' || job.designatedCompanyInfo?.sector === selectedSector;
 
-            // IT/SW Filter Logic
-            let matchesSector = true;
-            if (onlyIT) {
-                const sectorLower = (job.sector || '').toLowerCase();
-                const titleLower = (job.title || '').toLowerCase();
-                const itKeywords = ['sw', '소프트웨어', '개발', 'java', 'web', '앱', '서버', '데이터', 'ai', '딥러닝', '머신러닝', 'it', '정보처리', 'front', 'back', 'full'];
-                matchesSector = itKeywords.some(k => sectorLower.includes(k) || titleLower.includes(k));
-            }
+            // Salary Filter
+            const matchesSalary = !showSalaryOnly || (!!job.salary && job.salary.length > 0);
 
-            return matchesSearch && matchesRegion && matchesSector && matchesSource;
+            return matchesSearch && matchesRegion && matchesSector && matchesSource && matchesSalary;
         });
 
         if (sortBy === 'deadline') {
@@ -79,17 +85,19 @@ export const useJobs = () => {
         }
 
         return result;
-    }, [jobs, search, selectedRegion, selectedSource, sortBy, onlyIT]);
+    }, [jobs, search, selectedRegion, selectedSource, selectedSector, showSalaryOnly, sortBy]);
 
     return {
         jobs: filteredAndSortedJobs,
         loading,
         regions,
+        sectors,
         filters: {
             search, setSearch,
             selectedRegion, setSelectedRegion,
             selectedSource, setSelectedSource,
-            onlyIT, setOnlyIT,
+            selectedSector, setSelectedSector,
+            showSalaryOnly, setShowSalaryOnly,
             sortBy, setSortBy,
         }
     };

@@ -21,7 +21,7 @@ export default function Home() {
   // Reset page when filters change
   useEffect(() => {
     setCurrentPage(1);
-  }, [filters.search, filters.selectedRegion, filters.selectedSource, filters.onlyIT, filters.sortBy]);
+  }, [filters.search, filters.selectedRegion, filters.selectedSource, filters.selectedSector, filters.showSalaryOnly, filters.sortBy]);
 
   // Pagination Logic
   const totalPages = Math.ceil(jobs.length / itemsPerPage);
@@ -59,8 +59,10 @@ export default function Home() {
           selectedSource={filters.selectedSource} setSelectedSource={filters.setSelectedSource}
           selectedRegion={filters.selectedRegion} setSelectedRegion={filters.setSelectedRegion}
           regions={regions}
+          selectedSector={filters.selectedSector} setSelectedSector={filters.setSelectedSector}
+          sectors={useJobs().sectors}
+          showSalaryOnly={filters.showSalaryOnly} setShowSalaryOnly={filters.setShowSalaryOnly}
           sortBy={filters.sortBy} setSortBy={filters.setSortBy}
-          onlyIT={filters.onlyIT} setOnlyIT={filters.setOnlyIT}
           viewMode={viewMode} setViewMode={setViewMode}
           totalCount={jobs.length}
         />
