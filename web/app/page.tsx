@@ -157,7 +157,7 @@ export default function Home() {
         </div>
 
         {/* Filters & Search */}
-        <div className="sticky top-20 z-10 bg-gray-900/95 backdrop-blur-sm py-4 space-y-4 mb-8 border-b border-gray-800/50">
+        <div className="py-4 space-y-4 mb-8 border-b border-gray-800/50">
           <div className="flex flex-col md:flex-row gap-4">
             <div className="relative flex-grow">
               <input
