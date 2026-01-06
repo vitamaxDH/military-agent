@@ -14,6 +14,7 @@ interface Job {
   link: string;
   deadline: string;
   sector: string;
+  source: 'saramin' | 'jobkorea' | 'jumpit' | 'wanted';
   isDesignated?: boolean;
   designatedCompanyInfo?: Company;
 }
@@ -57,6 +58,19 @@ const getDDayColor = (days: number | null) => {
   if (days !== null && days <= 3) return "bg-orange-500 text-white";
   if (days !== null && days <= 7) return "bg-yellow-500 text-black";
   return "bg-gray-700 text-gray-300";
+};
+
+const getSourceBadge = (source: string) => {
+  switch (source) {
+    case 'saramin':
+      return <span className="bg-blue-100 text-blue-800 text-[10px] px-1.5 py-0.5 rounded font-bold border border-blue-200">사람인</span>;
+    case 'jobkorea':
+      return <span className="bg-blue-50 text-blue-600 text-[10px] px-1.5 py-0.5 rounded font-bold border border-blue-200">잡코리아</span>;
+    case 'jumpit':
+      return <span className="bg-green-100 text-green-800 text-[10px] px-1.5 py-0.5 rounded font-bold border border-green-200">점핏</span>;
+    default:
+      return <span className="bg-gray-200 text-gray-800 text-[10px] px-1.5 py-0.5 rounded font-bold">기타</span>;
+  }
 };
 
 export default function Home() {
@@ -121,7 +135,7 @@ export default function Home() {
       <header className="fixed top-0 w-full z-10 bg-gray-900/80 backdrop-blur-md border-b border-gray-800">
         <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
           <h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent">
-            병역일터 x 사람인
+            병역일터 x 채용플랫폼
           </h1>
           <span className="text-sm text-gray-400">
             산업기능요원 채용공고
@@ -132,13 +146,13 @@ export default function Home() {
       <main className="pt-24 pb-12 max-w-5xl mx-auto px-4">
         <div className="mb-10 text-center space-y-4">
           <div className="inline-block px-3 py-1 rounded-full bg-teal-900/30 text-teal-400 text-xs font-semibold mb-2 border border-teal-900/50">
-            Beta v1.1
+            Beta v1.2
           </div>
           <h2 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
             병역혜택 + 커리어 성장
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            병무청 지정업체와 사람인 채용공고를 교차 검증하여 <span className="text-teal-400 font-semibold">산업기능요원</span> 지원이 가능한 포지션만 모았습니다.
+            병무청 지정업체와 <span className="text-teal-400 font-semibold">사람인/잡코리아</span> 채용공고를 교차 검증하여 산업기능요원 포지션만 모았습니다.
           </p>
         </div>
 
@@ -221,10 +235,13 @@ export default function Home() {
 
                   <div className="flex flex-col h-full">
                     <div className="mb-4">
-                      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-700 text-gray-300 border border-gray-600 mb-2">
-                        {job.designatedCompanyInfo?.location || '지역 미정'}
-                      </span>
-                      <h3 className="text-lg font-bold text-white leading-tight group-hover:text-teal-300 transition-colors mb-1">
+                      <div className="flex items-center gap-2 mb-2">
+                        {getSourceBadge(job.source)}
+                        <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-medium bg-gray-700 text-gray-300 border border-gray-600">
+                          {job.designatedCompanyInfo?.location || '지역 미정'}
+                        </span>
+                      </div>
+                      <h3 className="text-lg font-bold text-white leading-tight group-hover:text-teal-300 transition-colors mb-1 break-keep">
                         {job.title}
                       </h3>
                       <div className="text-gray-400 text-sm font-medium">
@@ -258,7 +275,7 @@ export default function Home() {
 
       <footer className="border-t border-gray-800 mt-12 py-8 bg-gray-900">
         <div className="max-w-5xl mx-auto px-4 text-center text-gray-600 text-sm">
-          &copy; 2024 Military Job Aggregator. Data sourced from MMA and Saramin.
+          &copy; 2024 Military Job Aggregator. Data sourced from MMA, Saramin, and JobKorea.
         </div>
       </footer>
     </div>
