@@ -16,6 +16,7 @@ export interface Job {
     sector: string;
     source: 'saramin' | 'jobkorea' | 'jumpit' | 'wanted';
     salary?: string;
+    closed?: boolean;
 }
 
 export interface MatchedJob extends Job {
