@@ -78,7 +78,7 @@ const getSourceBadge = (source: string) => {
 export default function Home() {
   /* State for Pagination & View Mode */
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 50;
+  const itemsPerPage = 20;
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
   // Restore missing state
