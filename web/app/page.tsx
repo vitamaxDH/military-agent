@@ -1,12 +1,11 @@
 "use client";
 
-import { useEffect, useState, useMemo } from 'react';
-import { Job } from '../types';
+import { useState, useEffect } from 'react';
 import { JobCard } from '../components/JobCard';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { FilterBar } from '../components/FilterBar';
-import { calculateDDay } from '../utils';
+import { useJobs } from '../hooks/useJobs';
 
 export default function Home() {
   /* State for Pagination & View Mode */
@@ -14,73 +13,17 @@ export default function Home() {
   const itemsPerPage = 20;
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
-  // Restore missing state
-  const [jobs, setJobs] = useState<Job[]>([]);
-  const [search, setSearch] = useState('');
-  const [selectedRegion, setSelectedRegion] = useState('All');
-  const [selectedSource, setSelectedSource] = useState('All');
-  const [onlyIT, setOnlyIT] = useState(false);
-  const [sortBy, setSortBy] = useState('deadline');
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetch('/data/matched_jobs.json')
-      .then((res) => res.json())
-      .then((data) => {
-        setJobs(data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error('Failed to load jobs', err);
-        setLoading(false);
-      });
-  }, []);
+  // Use Custom Hook for Data & Logic
+  const { jobs, loading, regions, filters } = useJobs();
 
   // Reset page when filters change
   useEffect(() => {
     setCurrentPage(1);
-  }, [search, selectedRegion, selectedSource, onlyIT, sortBy]);
-
-  const regions = useMemo(() => {
-    const unique = new Set(jobs.map(j => j.designatedCompanyInfo?.location).filter(Boolean));
-    return ['All', ...Array.from(unique)].sort();
-  }, [jobs]);
-
-  const filteredAndSortedJobs = useMemo(() => {
-    let result = jobs.filter((job) => {
-      const matchesSearch = job.title.toLowerCase().includes(search.toLowerCase()) ||
-        job.company.toLowerCase().includes(search.toLowerCase()) ||
-        (job.designatedCompanyInfo?.location || '').includes(search);
-
-      const matchesRegion = selectedRegion === 'All' || job.designatedCompanyInfo?.location === selectedRegion;
-      const matchesSource = selectedSource === 'All' || job.source === selectedSource;
-
-      // IT/SW Filter Logic
-      let matchesSector = true;
-      if (onlyIT) {
-        const sectorLower = (job.sector || '').toLowerCase();
-        const titleLower = (job.title || '').toLowerCase();
-        const itKeywords = ['sw', '소프트웨어', '개발', 'java', 'web', '앱', '서버', '데이터', 'ai', '딥러닝', '머신러닝', 'it', '정보처리', 'front', 'back', 'full'];
-        matchesSector = itKeywords.some(k => sectorLower.includes(k) || titleLower.includes(k));
-      }
-
-      return matchesSearch && matchesRegion && matchesSector && matchesSource;
-    });
-
-    if (sortBy === 'deadline') {
-      result.sort((a, b) => {
-        const dA = calculateDDay(a.deadline) ?? 999;
-        const dB = calculateDDay(b.deadline) ?? 999;
-        return dA - dB;
-      });
-    }
-
-    return result;
-  }, [jobs, search, selectedRegion, selectedSource, sortBy, onlyIT]);
+  }, [filters.search, filters.selectedRegion, filters.selectedSource, filters.onlyIT, filters.sortBy]);
 
   // Pagination Logic
-  const totalPages = Math.ceil(filteredAndSortedJobs.length / itemsPerPage);
-  const currentJobs = filteredAndSortedJobs.slice(
+  const totalPages = Math.ceil(jobs.length / itemsPerPage);
+  const currentJobs = jobs.slice(
     (currentPage - 1) * itemsPerPage,
     currentPage * itemsPerPage
   );
@@ -108,14 +51,14 @@ export default function Home() {
         </div>
 
         <FilterBar
-          search={search} setSearch={setSearch}
-          selectedSource={selectedSource} setSelectedSource={setSelectedSource}
-          selectedRegion={selectedRegion} setSelectedRegion={setSelectedRegion}
+          search={filters.search} setSearch={filters.setSearch}
+          selectedSource={filters.selectedSource} setSelectedSource={filters.setSelectedSource}
+          selectedRegion={filters.selectedRegion} setSelectedRegion={filters.setSelectedRegion}
           regions={regions}
-          sortBy={sortBy} setSortBy={setSortBy}
-          onlyIT={onlyIT} setOnlyIT={setOnlyIT}
+          sortBy={filters.sortBy} setSortBy={filters.setSortBy}
+          onlyIT={filters.onlyIT} setOnlyIT={filters.setOnlyIT}
           viewMode={viewMode} setViewMode={setViewMode}
-          totalCount={filteredAndSortedJobs.length}
+          totalCount={jobs.length}
         />
 
         {loading ? (
@@ -164,7 +107,7 @@ export default function Home() {
           </>
         )}
 
-        {!loading && filteredAndSortedJobs.length === 0 && (
+        {!loading && jobs.length === 0 && (
           <div className="text-center py-20 text-gray-500 bg-gray-800/30 rounded-3xl border border-gray-800">
             <p className="text-xl mb-2 font-semibold text-gray-400">검색 결과가 없습니다.</p>
             <p className="text-sm">다른 검색어나 필터를 시도해보세요.</p>
