@@ -1,0 +1,41 @@
+name: Daily Scrape
+
+on:
+  schedule:
+    - cron: '0 15 * * *' # 15:00 UTC = 00:00 KST
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Scrapers
+        run: |
+          npx ts-node scripts/scrapers/mma.ts
+          npx ts-node scripts/scrapers/saramin.ts
+          npx ts-node scripts/scrapers/jobkorea.ts
+
+      - name: Aggregate Data
+        run: npx ts-node scripts/aggregate.ts
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add web/public/data/matched_jobs.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update job data [skip ci]" && git push)

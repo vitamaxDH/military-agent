@@ -1,22 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-
-interface Company {
-    name: string;
-    sector: string;
-    location: string;
-}
-
-interface Job {
-    company: string;
-    title: string;
-    link: string;
-    deadline: string;
-    sector: string;
-    // Augmented fields
-    isDesignated?: boolean;
-    designatedCompanyInfo?: Company;
-}
+import { Company, Job, MatchedJob } from './types';
 
 function normalizeName(name: string): string {
     return name
@@ -29,73 +13,63 @@ function normalizeName(name: string): string {
 }
 
 async function aggregate() {
-    console.log('Aggregating data...');
+    console.log('Aggregating data from multiple sources...');
     const dataDir = path.join(__dirname, '../data');
-    const publicDataDir = path.join(__dirname, '../public/data');
+    const publicDataDir = path.join(__dirname, '../web/public/data');
 
     if (!fs.existsSync(publicDataDir)) {
         fs.mkdirSync(publicDataDir, { recursive: true });
     }
 
-    // Load data
+    // Load Companies
     const companiesPath = path.join(dataDir, 'companies.json');
-    const jobsPath = path.join(dataDir, 'jobs.json');
-
-    if (!fs.existsSync(companiesPath) || !fs.existsSync(jobsPath)) {
-        console.error('Data files missing. Run fetch scripts first.');
+    if (!fs.existsSync(companiesPath)) {
+        console.error('Error: companies.json missing.');
         return;
     }
-
     const companies: Company[] = JSON.parse(fs.readFileSync(companiesPath, 'utf-8'));
-    const jobs: Job[] = JSON.parse(fs.readFileSync(jobsPath, 'utf-8'));
+    console.log(`Loaded ${companies.length} designated companies.`);
 
-    console.log(`Loaded ${companies.length} companies and ${jobs.length} jobs.`);
+    // Load Jobs
+    let allJobs: Job[] = [];
 
-    // Index companies for faster lookup? 
-    // Since names might be slightly different, we might need fuzzy match or iteration.
-    // Iteration is fine for ~6000 * ~2000 = 12M ops (fast enough relative to scraping).
-    // Or we can create a normalized map.
+    // Saramin
+    const saraminPath = path.join(dataDir, 'jobs_saramin.json');
+    if (fs.existsSync(saraminPath)) {
+        const saraminJobs: Job[] = JSON.parse(fs.readFileSync(saraminPath, 'utf-8'));
+        console.log(`Loaded ${saraminJobs.length} jobs from Saramin.`);
+        allJobs = allJobs.concat(saraminJobs);
+    } else {
+        console.warn('Warning: jobs_saramin.json missing.');
+    }
 
+    // JobKorea
+    const jobkoreaPath = path.join(dataDir, 'jobs_jobkorea.json');
+    if (fs.existsSync(jobkoreaPath)) {
+        const jobkoreaJobs: Job[] = JSON.parse(fs.readFileSync(jobkoreaPath, 'utf-8'));
+        console.log(`Loaded ${jobkoreaJobs.length} jobs from JobKorea.`);
+        allJobs = allJobs.concat(jobkoreaJobs);
+    } else {
+        console.warn('Warning: jobs_jobkorea.json missing.');
+    }
+
+    console.log(`Total jobs to process: ${allJobs.length}`);
+
+    // Build Company Map for O(1) matching
     const companyMap = new Map<string, Company>();
     companies.forEach(c => {
         companyMap.set(normalizeName(c.name), c);
     });
 
-    const matchedJobs: Job[] = [];
-    const unmatchedJobs: Job[] = [];
+    const matchedJobs: MatchedJob[] = [];
 
-    jobs.forEach(job => {
+    allJobs.forEach(job => {
         const jobNorm = normalizeName(job.company);
-
         let match: Company | undefined;
 
         // Exact normalized match
         if (companyMap.has(jobNorm)) {
             match = companyMap.get(jobNorm);
-        } else {
-            // Partial match? 
-            // e.g. Job: "Foobar Inc" -> Norm: "FoobarInc"
-            // Company: "Foobar" -> Norm: "Foobar"
-            // Start simple: exact normalized match is usually good enough for major mismatches.
-            // If job name contains company name (longer contains shorter)
-            // But we have to be careful of false positives.
-            // Let's stick to normalized exact match or very close match.
-
-            // Try finding if any designated company name is a substring of job company name
-            // optimizing: only check if undefined
-            // This is O(N*M), slow if N, M are large. 
-            // 6000 * 2000 is 12M check, takes ~100ms in Node.
-
-            /* 
-            // Optional: Advanced matching if needed
-            for (const c of companies) {
-                const cNorm = normalizeName(c.name);
-                if (cNorm.length > 2 && jobNorm.includes(cNorm)) {
-                    match = c;
-                    break;
-                }
-            }
-            */
         }
 
         if (match) {
@@ -104,15 +78,16 @@ async function aggregate() {
                 isDesignated: true,
                 designatedCompanyInfo: match
             });
-        } else {
-            unmatchedJobs.push(job);
         }
     });
 
-    console.log(`Matched ${matchedJobs.length} jobs out of ${jobs.length}.`);
+    console.log(`Matched ${matchedJobs.length} jobs out of ${allJobs.length}.`);
+
+    // Sort by deadline? Or leave sorting to frontend.
+    // Frontend does sorting.
 
     fs.writeFileSync(path.join(publicDataDir, 'matched_jobs.json'), JSON.stringify(matchedJobs, null, 2));
-    console.log(`Saved matched jobs to public/data/matched_jobs.json`);
+    console.log(`Saved matched jobs to web/public/data/matched_jobs.json`);
 }
 
 aggregate();

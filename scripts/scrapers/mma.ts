@@ -2,49 +2,15 @@ import axios from 'axios';
 import * as cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
+import { Company } from '../types';
 
 // URL for MMA search
 const BASE_URL = 'https://work.mma.go.kr/caisBYIS/search/byjjecgeomsaek.do';
 const SEARCH_URL = 'https://work.mma.go.kr/caisBYIS/search/byjjecgeomsaek.do';
 
-interface Company {
-    name: string;
-    sector: string;
-    location: string;
-    phone: string;
-    mainProduct: string;
-}
-
 async function fetchCompanies() {
-    console.log('Fetching designated companies...');
+    console.log('Fetching designated companies from MMA...');
     const companies: Company[] = [];
-
-    // We need to handle pagination. 
-    // First, let's try to fetch the first page to see the structure and total count if possible.
-    // Note: The MMA site might use a form submit for pagination.
-    // Inspecting the network requests usually shows form data like `pageIndex=1`.
-
-    // For now, let's assume simple GET/POST mechanism.
-    // Getting the main page to check connectivity
-    try {
-        const initialRes = await axios.get(BASE_URL, {
-            params: {
-                eopjong_gbcd: 1, // Industrial Technical Personnel
-                menu_id: 'm_m6_1'
-            },
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
-            }
-        });
-        if (initialRes.status !== 200) {
-            console.error('Failed to access main page:', initialRes.status);
-            return;
-        }
-        console.log('Main page accessed successfully.');
-    } catch (error) {
-        console.error('Error accessing main page:', error);
-        return;
-    }
 
     // Attempt to search
     let pageIndex = 1;
@@ -82,17 +48,13 @@ async function fetchCompanies() {
                 const name = row.find('th a').text().trim();
                 // Columns: Name(th), Year(td0), Region(td1), Status(td2)
                 const tds = row.find('td');
-                // const year = $(tds[0]).text().trim(); // Unused
                 const region = $(tds[1]).text().trim();
-                // const status = $(tds[2]).text().trim(); // Unused
 
                 if (name) {
                     companies.push({
                         name: name,
                         sector: '', // Sector not available in list view
-                        location: region, // Using region as location
-                        phone: '',
-                        mainProduct: '',
+                        location: region,
                     });
                     pageCount++;
                 }
@@ -106,7 +68,7 @@ async function fetchCompanies() {
             }
 
             pageIndex++;
-            await new Promise(resolve => setTimeout(resolve, 3000)); // Respectful delay (increased to 3s for heavier load)
+            await new Promise(resolve => setTimeout(resolve, 3000)); // Respectful delay (3s)
         } catch (error) {
             console.error(`Error fetching page ${pageIndex}:`, error);
             hasNext = false;
@@ -114,7 +76,7 @@ async function fetchCompanies() {
     }
 
     // Save to file
-    const dataDir = path.join(__dirname, '../data');
+    const dataDir = path.join(__dirname, '../../data');
     if (!fs.existsSync(dataDir)) {
         fs.mkdirSync(dataDir);
     }

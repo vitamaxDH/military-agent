@@ -2,26 +2,16 @@ import axios from 'axios';
 import * as cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
+import { Job } from '../types';
 
 // Search URL for Saramin
 const SEARCH_URL = 'https://www.saramin.co.kr/zf_user/search/recruit';
-
-interface Job {
-    company: string;
-    title: string;
-    link: string;
-    deadline: string;
-    sector: string;
-}
 
 async function fetchJobs() {
     console.log('Fetching job postings from Saramin...');
     const jobs: Job[] = [];
 
     // Search query: "산업기능요원"
-    // Parameters found via inspecting Saramin search URL
-    // https://www.saramin.co.kr/zf_user/search/recruit?search_area=mv&search_done=y&search_optional_item=n&searchType=search&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90
-
     let page = 1;
     let hasNext = true;
 
@@ -65,19 +55,13 @@ async function fetchJobs() {
                         title,
                         link,
                         deadline,
-                        sector
+                        sector,
+                        source: 'saramin'
                     });
                 }
             });
 
             console.log(`Parsed ${items.length} jobs from page ${page}.`);
-
-            // Check if we got less than requested count (approx check)
-            if (items.length < 50) {
-                // Sometimes page count param is ignored or capped. 
-                // If we get few items, it might be the last page.
-                // But safer to just rely on empty result or explicit pagination check.
-            }
 
             page++;
             await new Promise(resolve => setTimeout(resolve, 2000));
@@ -88,13 +72,13 @@ async function fetchJobs() {
     }
 
     // Save to file
-    const dataDir = path.join(__dirname, '../data');
+    const dataDir = path.join(__dirname, '../../data');
     if (!fs.existsSync(dataDir)) {
         fs.mkdirSync(dataDir);
     }
 
-    fs.writeFileSync(path.join(dataDir, 'jobs.json'), JSON.stringify(jobs, null, 2));
-    console.log(`Saved ${jobs.length} jobs to data/jobs.json`);
+    fs.writeFileSync(path.join(dataDir, 'jobs_saramin.json'), JSON.stringify(jobs, null, 2));
+    console.log(`Saved ${jobs.length} jobs to data/jobs_saramin.json`);
 }
 
 fetchJobs();
