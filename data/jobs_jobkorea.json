@@ -13,7 +13,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48346672",
     "deadline": "02/04(수) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "210만원"
   },
   {
     "company": "㈜오리엔트텔레콤",
@@ -21,7 +22,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48084526",
     "deadline": "01/19(월) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "연봉 2,600만원"
   },
   {
     "company": "㈜웰크론헬스케어",
@@ -32,18 +34,18 @@
     "source": "jobkorea"
   },
   {
-    "company": "엠에이치케이",
-    "title": "산업기능요원 보충역 모집",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48344841",
-    "deadline": "01/12(월) 마감",
-    "sector": "",
-    "source": "jobkorea"
-  },
-  {
     "company": "㈜도스코",
     "title": "(주)도스코 산업기능요원 (현역) 생산직 채용",
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48317383",
     "deadline": "01/29(목) 마감",
+    "sector": "",
+    "source": "jobkorea"
+  },
+  {
+    "company": "엠에이치케이",
+    "title": "산업기능요원 보충역 모집",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48344841",
+    "deadline": "01/12(월) 마감",
     "sector": "",
     "source": "jobkorea"
   },
@@ -72,20 +74,22 @@
     "source": "jobkorea"
   },
   {
-    "company": "㈜선우커뮤니케이션",
-    "title": "안테나제조 병역특례(산업기능요원) 모집",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48229301",
-    "deadline": "01/14(수) 마감",
-    "sector": "",
-    "source": "jobkorea"
-  },
-  {
     "company": "서우실업㈜",
     "title": "[생산부] 산업기능요원 (보충역) 모집",
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48231298",
     "deadline": "01/14(수) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "연봉 2,700만원"
+  },
+  {
+    "company": "㈜선우커뮤니케이션",
+    "title": "안테나제조 병역특례(산업기능요원) 모집",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48229301",
+    "deadline": "01/14(수) 마감",
+    "sector": "",
+    "source": "jobkorea",
+    "salary": "2,800만원"
   },
   {
     "company": "진한공업",
@@ -93,7 +97,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48244962",
     "deadline": "01/15(목) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "3,500만원"
   },
   {
     "company": "넛지헬스케어㈜",
@@ -109,7 +114,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48273713",
     "deadline": "01/21(수) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "50만원"
   },
   {
     "company": "㈜정광",
@@ -208,18 +214,26 @@
     "source": "jobkorea"
   },
   {
+    "company": "㈜드림메카텍",
+    "title": "표면팀 충원 모집(산업기능요원 우대)",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48346255",
+    "deadline": "03/06(금) 마감",
+    "sector": "",
+    "source": "jobkorea"
+  },
+  {
     "company": "넛지헬스케어㈜",
-    "title": "[모멘토] iOS개발 산업기능요원 모집",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48056384",
+    "title": "[모멘토] 백엔드개발 산업기능요원 모집",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48056189",
     "deadline": "01/16(금) 마감",
     "sector": "",
     "source": "jobkorea"
   },
   {
-    "company": "㈜드림메카텍",
-    "title": "표면팀 충원 모집(산업기능요원 우대)",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48346255",
-    "deadline": "03/06(금) 마감",
+    "company": "넛지헬스케어㈜",
+    "title": "[모멘토] iOS개발 산업기능요원 모집",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48056384",
+    "deadline": "01/16(금) 마감",
     "sector": "",
     "source": "jobkorea"
   },
@@ -235,14 +249,6 @@
     "company": "넛지헬스케어㈜",
     "title": "[모멘토] Flutter개발 산업기능요원 모집",
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48056580",
-    "deadline": "01/16(금) 마감",
-    "sector": "",
-    "source": "jobkorea"
-  },
-  {
-    "company": "넛지헬스케어㈜",
-    "title": "[모멘토] 백엔드개발 산업기능요원 모집",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48056189",
     "deadline": "01/16(금) 마감",
     "sector": "",
     "source": "jobkorea"
@@ -272,6 +278,22 @@
     "source": "jobkorea"
   },
   {
+    "company": "넛지헬스케어㈜",
+    "title": "[캐시워크-병역특례] 안드로이드개발 산업기능요원",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48152531",
+    "deadline": "상시채용",
+    "sector": "",
+    "source": "jobkorea"
+  },
+  {
+    "company": "넛지헬스케어㈜",
+    "title": "[캐시워크-병역특례] Flutter개발 산업기능요원",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48152252",
+    "deadline": "상시채용",
+    "sector": "",
+    "source": "jobkorea"
+  },
+  {
     "company": "㈜모두싸인",
     "title": "[모두싸인 / 병역특례] 프론트엔드 엔지니어 (산업기능요원)",
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48208155",
@@ -296,18 +318,10 @@
     "source": "jobkorea"
   },
   {
-    "company": "넛지헬스케어㈜",
-    "title": "[캐시워크-병역특례] 안드로이드개발 산업기능요원",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48152531",
-    "deadline": "상시채용",
-    "sector": "",
-    "source": "jobkorea"
-  },
-  {
-    "company": "넛지헬스케어㈜",
-    "title": "[캐시워크-병역특례] Flutter개발 산업기능요원",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48152252",
-    "deadline": "상시채용",
+    "company": "㈜폴리큐브",
+    "title": "병역특례(보충역 산업기능요원) 웹/앱 프런트, 백엔드 프로그래머 모십니다",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48340233",
+    "deadline": "01/18(일) 마감",
     "sector": "",
     "source": "jobkorea"
   },
@@ -324,14 +338,6 @@
     "title": "[캐시워크-병역특례] 프론트엔드개발 산업기능요원",
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48152229",
     "deadline": "상시채용",
-    "sector": "",
-    "source": "jobkorea"
-  },
-  {
-    "company": "㈜폴리큐브",
-    "title": "병역특례(보충역 산업기능요원) 웹/앱 프런트, 백엔드 프로그래머 모십니다",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48340233",
-    "deadline": "01/18(일) 마감",
     "sector": "",
     "source": "jobkorea"
   },
@@ -437,7 +443,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48246099",
     "deadline": "01/18(일) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "50만원"
   },
   {
     "company": "삼전순약공업㈜",
@@ -509,7 +516,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48206797",
     "deadline": "상시채용",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "220만원"
   },
   {
     "company": "아셈테크㈜",
@@ -517,7 +525,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48142544",
     "deadline": "01/30(금) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "3,000만원"
   },
   {
     "company": "에너자이",
@@ -557,7 +566,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48291572",
     "deadline": "01/23(금) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "4,500만원"
   },
   {
     "company": "팸텍㈜",
@@ -589,7 +599,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48252325",
     "deadline": "01/16(금) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "연봉 4,000만원"
   },
   {
     "company": "한국로스트왁스㈜",
@@ -613,7 +624,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48332555",
     "deadline": "03/03(화) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "350만원"
   },
   {
     "company": "주식회사 인프랩",
@@ -629,7 +641,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48326540",
     "deadline": "01/30(금) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "100만원"
   },
   {
     "company": "㈜엔키화이트햇",
@@ -645,7 +658,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48188514",
     "deadline": "02/06(금) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "100만원"
   },
   {
     "company": "올거나이즈코리아㈜",
@@ -653,7 +667,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48257023",
     "deadline": "01/17(토) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "100만원"
   },
   {
     "company": "몬드리안에이아이",
@@ -661,13 +676,23 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48188078",
     "deadline": "02/06(금) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "100만원"
   },
   {
     "company": "올거나이즈코리아㈜",
     "title": "고객사 On-prem 엔지니어 (DevOps)",
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48257012",
     "deadline": "01/17(토) 마감",
+    "sector": "",
+    "source": "jobkorea",
+    "salary": "100만원"
+  },
+  {
+    "company": "㈜엔키화이트햇",
+    "title": "[엔키화이트햇] RedOps팀 : 화이트해커 부문별 채용",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48192521",
+    "deadline": "상시채용",
     "sector": "",
     "source": "jobkorea"
   },
@@ -677,15 +702,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48203774",
     "deadline": "01/09(금) 마감",
     "sector": "",
-    "source": "jobkorea"
-  },
-  {
-    "company": "㈜엔키화이트햇",
-    "title": "[엔키화이트햇] RedOps팀 : 화이트해커 부문별 채용",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48192521",
-    "deadline": "상시채용",
-    "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "100만원"
   },
   {
     "company": "디케이아이테크놀로지",
@@ -712,20 +730,13 @@
     "source": "jobkorea"
   },
   {
-    "company": "코리아인스트루먼트㈜",
-    "title": "국제교정기관 IT개발실 SW개발자 모집",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48120411",
-    "deadline": "01/25(일) 마감",
-    "sector": "",
-    "source": "jobkorea"
-  },
-  {
     "company": "토르드라이브",
     "title": "자율주행 H/W전장 엔지니어[전문연구요원가능]",
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48213709",
     "deadline": "01/10(토) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "100만원"
   },
   {
     "company": "㈜트윔",
@@ -773,7 +784,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48210398",
     "deadline": "01/11(일) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "50만원"
   },
   {
     "company": "에너자이",
@@ -789,7 +801,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48281483",
     "deadline": "01/22(목) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "50만원"
   },
   {
     "company": "㈜모빌린트",
@@ -797,7 +810,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48281344",
     "deadline": "01/22(목) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "50만원"
   },
   {
     "company": "㈜히츠",
@@ -813,7 +827,8 @@
     "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48250090",
     "deadline": "02/15(일) 마감",
     "sector": "",
-    "source": "jobkorea"
+    "source": "jobkorea",
+    "salary": "10,000만원"
   },
   {
     "company": "중견기업(300명이상)",
@@ -849,16 +864,16 @@
   },
   {
     "company": "㈜이스트게임즈",
-    "title": "[경력] 산업기능요원 전직자 채용 (현역/보충역)",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/https://www.gamejob.co.kr/Recruit/GI_Read/View?GI_No=272246",
+    "title": "[신입] 산업기능요원 보충역 (클라이언트/서버)",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/https://www.gamejob.co.kr/Recruit/GI_Read/View?GI_No=272247",
     "deadline": "상시채용",
     "sector": "",
     "source": "jobkorea"
   },
   {
     "company": "㈜이스트게임즈",
-    "title": "[신입] 산업기능요원 보충역 (클라이언트/서버)",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/https://www.gamejob.co.kr/Recruit/GI_Read/View?GI_No=272247",
+    "title": "[경력] 산업기능요원 전직자 채용 (현역/보충역)",
+    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/https://www.gamejob.co.kr/Recruit/GI_Read/View?GI_No=272246",
     "deadline": "상시채용",
     "sector": "",
     "source": "jobkorea"
