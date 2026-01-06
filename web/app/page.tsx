@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { JobCard } from '../components/JobCard';
 import { SkeletonJobCard } from '../components/SkeletonJobCard';
+import { StatsDashboard } from '../components/StatsDashboard';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { FilterBar } from '../components/FilterBar';
@@ -50,6 +51,8 @@ export default function Home() {
             병무청 지정업체와 <span className="text-blue-400 font-semibold">채용플랫폼</span> 공고를 교차 검증하여 산업기능요원 포지션만 모았습니다.
           </p>
         </div>
+
+        <StatsDashboard jobs={jobs} totalCompanies={0} />
 
         <FilterBar
           search={filters.search} setSearch={filters.setSearch}

@@ -68,7 +68,7 @@ export const JobCard: React.FC<JobCardProps> = ({ job, viewMode }) => {
                         <h3 className="text-lg font-bold text-white leading-tight group-hover:text-blue-300 transition-colors mb-1 break-keep">
                             {job.title}
                         </h3>
-                        <div className="text-gray-400 text-sm font-medium">
+                        <div className="text-gray-400 text-sm font-medium mb-2">
                             {job.company}
                         </div>
                     </div>
@@ -107,7 +107,7 @@ export const JobCard: React.FC<JobCardProps> = ({ job, viewMode }) => {
                     <h3 className="text-base font-bold text-white group-hover:text-blue-300 transition-colors">
                         {job.title}
                     </h3>
-                    <div className="text-gray-400 text-sm">
+                    <div className="text-gray-400 text-sm mt-1">
                         {job.company}
                     </div>
                 </div>
