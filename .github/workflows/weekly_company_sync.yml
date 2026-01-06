@@ -1,12 +1,12 @@
-name: Daily Scrape
+name: Weekly Company Sync
 
 on:
   schedule:
-    - cron: '0 15 * * *' # 15:00 UTC = 00:00 KST
+    - cron: '0 15 * * 0' # 00:00 KST on Sunday (15:00 UTC Saturday)
   workflow_dispatch:
 
 jobs:
-  scrape:
+  scrape-companies:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -23,18 +23,12 @@ jobs:
       - name: Install Dependencies
         run: bun install
 
-      - name: Run Job Scrapers
-        run: |
-          bun scripts/scrapers/saramin.ts
-          bun scripts/scrapers/jobkorea.ts
-          bun scripts/scrapers/wanted.ts
-
-      - name: Aggregate Data
-        run: bun scripts/aggregate.ts
+      - name: Run MMA Scraper (Heavy)
+        run: bun scripts/scrapers/mma_scheduler.ts
 
       - name: Commit and Push
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add web/public/data/matched_jobs.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update job data [skip ci]" && git push)
+          git add data/companies.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update MMA company list [skip ci]" && git push)
