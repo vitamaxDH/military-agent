@@ -135,7 +135,7 @@ export default function Home() {
   }, [jobs, search, selectedRegion, selectedSource, sortBy, onlyIT]);
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-800 via-gray-900 to-black text-gray-100 font-sans relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-b from-gray-800 via-gray-900 to-black text-gray-100 font-sans relative overflow-hidden">
 
       {/* Taegeuk Inspired Background Elements (Subtle) */}
       <div className="absolute top-[-10%] left-[-10%] w-[40vw] h-[40vw] bg-blue-600/10 rounded-full blur-[100px] pointer-events-none"></div>
