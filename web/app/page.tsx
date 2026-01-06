@@ -81,6 +81,15 @@ export default function Home() {
   const itemsPerPage = 50;
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
+  // Restore missing state
+  const [jobs, setJobs] = useState<Job[]>([]);
+  const [search, setSearch] = useState('');
+  const [selectedRegion, setSelectedRegion] = useState('All');
+  const [selectedSource, setSelectedSource] = useState('All');
+  const [onlyIT, setOnlyIT] = useState(false);
+  const [sortBy, setSortBy] = useState('deadline');
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     fetch('/data/matched_jobs.json')
       .then((res) => res.json())
@@ -144,7 +153,8 @@ export default function Home() {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-800 via-gray-900 to-black text-gray-100 font-sans relative overflow-hidden">
+  return (
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-gray-800 via-gray-900 to-black text-gray-100 font-sans relative overflow-hidden">
 
       {/* Taegeuk Inspired Background Elements (Subtle) */}
       <div className="absolute top-[-10%] left-[-10%] w-[40vw] h-[40vw] bg-blue-600/10 rounded-full blur-[100px] pointer-events-none"></div>
@@ -165,7 +175,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="pt-24 pb-12 max-w-5xl mx-auto px-4 relative z-1">
+      <main className="flex-grow pt-24 pb-12 max-w-5xl mx-auto px-4 relative z-1 w-full">
         <div className="mb-10 text-center space-y-4">
           <div className="inline-block px-3 py-1 rounded-full bg-gray-800/80 text-gray-300 text-xs font-semibold mb-2 border border-gray-700 shadow-sm">
             v2.0 Beta
@@ -407,9 +417,16 @@ export default function Home() {
         )}
       </main>
 
-      <footer className="border-t border-gray-800 mt-12 py-8 bg-gray-900/50 backdrop-blur-md">
+      <footer className="border-t border-gray-800 py-8 bg-gray-900/50 backdrop-blur-md">
         <div className="max-w-5xl mx-auto px-4 text-center text-gray-600 text-sm">
-          &copy; 2024 Military Job Aggregator. Data sourced from MMA, Saramin, JobKorea, and Wanted.
+          <p className="mb-2">&copy; 2026 Military Job Aggregator. All rights reserved.</p>
+          <p className="text-gray-700 text-xs">
+            본 서비스는 병무청 공식 서비스가 아니며, 구직 편의를 위해 제공되는 정보입니다.<br />
+            채용 공고의 상세 내용은 각 채용 플랫폼에서 확인하시기 바랍니다.
+          </p>
+          <div className="mt-4 flex justify-center gap-4 text-xs text-gray-500">
+            <span>Data sourced from MMA, Saramin, JobKorea, and Wanted.</span>
+          </div>
         </div>
       </footer>
     </div>
