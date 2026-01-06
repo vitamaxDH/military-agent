@@ -29,6 +29,7 @@ jobs:
           npx ts-node scripts/scrapers/mma.ts
           npx ts-node scripts/scrapers/saramin.ts
           npx ts-node scripts/scrapers/jobkorea.ts
+          npx ts-node scripts/scrapers/wanted.ts
 
       - name: Aggregate Data
         run: npx ts-node scripts/aggregate.ts
