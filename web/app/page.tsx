@@ -76,13 +76,10 @@ const getSourceBadge = (source: string) => {
 };
 
 export default function Home() {
-  const [jobs, setJobs] = useState<Job[]>([]);
-  const [search, setSearch] = useState('');
-  const [selectedRegion, setSelectedRegion] = useState('All');
-  const [selectedSource, setSelectedSource] = useState('All'); // New Source Filter
-  const [onlyIT, setOnlyIT] = useState(false);
-  const [sortBy, setSortBy] = useState('deadline');
-  const [loading, setLoading] = useState(true);
+  /* State for Pagination & View Mode */
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 50;
+  const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
   useEffect(() => {
     fetch('/data/matched_jobs.json')
@@ -97,6 +94,11 @@ export default function Home() {
       });
   }, []);
 
+  // Reset page when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [search, selectedRegion, selectedSource, onlyIT, sortBy]);
+
   const regions = useMemo(() => {
     const unique = new Set(jobs.map(j => j.designatedCompanyInfo?.location).filter(Boolean));
     return ['All', ...Array.from(unique)].sort();
@@ -109,7 +111,7 @@ export default function Home() {
         (job.designatedCompanyInfo?.location || '').includes(search);
 
       const matchesRegion = selectedRegion === 'All' || job.designatedCompanyInfo?.location === selectedRegion;
-      const matchesSource = selectedSource === 'All' || job.source === selectedSource; // Source Logic
+      const matchesSource = selectedSource === 'All' || job.source === selectedSource;
 
       // IT/SW Filter Logic
       let matchesSector = true;
@@ -133,6 +135,13 @@ export default function Home() {
 
     return result;
   }, [jobs, search, selectedRegion, selectedSource, sortBy, onlyIT]);
+
+  // Pagination Logic
+  const totalPages = Math.ceil(filteredAndSortedJobs.length / itemsPerPage);
+  const currentJobs = filteredAndSortedJobs.slice(
+    (currentPage - 1) * itemsPerPage,
+    currentPage * itemsPerPage
+  );
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-800 via-gray-900 to-black text-gray-100 font-sans relative overflow-hidden">
@@ -170,7 +179,7 @@ export default function Home() {
         </div>
 
         {/* Filters & Search */}
-        <div className="py-4 space-y-4 mb-8 border-b border-gray-800/50">
+        <div className="py-4 space-y-4 mb-4 border-b border-gray-800/50">
           <div className="flex flex-col md:flex-row gap-4">
             <div className="relative flex-grow">
               <input
@@ -220,17 +229,47 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
-            <label className={`flex items-center gap-2 px-4 py-2 rounded-full border cursor-pointer transition-all select-none ${onlyIT ? 'bg-blue-600 border-blue-500 text-white shadow-lg shadow-blue-900/50' : 'bg-gray-800 border-gray-700 text-gray-400 hover:border-gray-500'}`}>
-              <input
-                type="checkbox"
-                checked={onlyIT}
-                onChange={(e) => setOnlyIT(e.target.checked)}
-                className="hidden"
-              />
-              <span className="text-sm font-semibold">💻 정보처리(IT/SW)만 보기</span>
-            </label>
+          <div className="flex items-center justify-between mt-2">
+            <div className="flex items-center gap-2">
+              <label className={`flex items-center gap-2 px-4 py-2 rounded-full border cursor-pointer transition-all select-none ${onlyIT ? 'bg-blue-600 border-blue-500 text-white shadow-lg shadow-blue-900/50' : 'bg-gray-800 border-gray-700 text-gray-400 hover:border-gray-500'}`}>
+                <input
+                  type="checkbox"
+                  checked={onlyIT}
+                  onChange={(e) => setOnlyIT(e.target.checked)}
+                  className="hidden"
+                />
+                <span className="text-sm font-semibold">💻 정보처리(IT/SW)만 보기</span>
+              </label>
+            </div>
+
+            {/* View Toggle */}
+            <div className="flex bg-gray-800 rounded-lg p-1 border border-gray-700">
+              <button
+                onClick={() => setViewMode('grid')}
+                className={`p-2 rounded-md transition-all ${viewMode === 'grid' ? 'bg-gray-700 text-white shadow-sm' : 'text-gray-400 hover:text-gray-200'}`}
+                title="카드 보기"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                </svg>
+              </button>
+              <button
+                onClick={() => setViewMode('list')}
+                className={`p-2 rounded-md transition-all ${viewMode === 'list' ? 'bg-gray-700 text-white shadow-sm' : 'text-gray-400 hover:text-gray-200'}`}
+                title="리스트 보기"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
           </div>
+
+          {/* Result Count */}
+          <div className="flex justify-end text-sm text-gray-400 mb-2">
+            총 {filteredAndSortedJobs.length}건
+          </div>
+
         </div>
 
         {loading ? (
@@ -238,55 +277,126 @@ export default function Home() {
             <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
           </div>
         ) : (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {filteredAndSortedJobs.map((job, idx) => {
-              const dDay = calculateDDay(job.deadline);
-              return (
-                <a
-                  key={idx}
-                  href={job.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group block p-6 bg-gray-800/80 backdrop-blur-sm rounded-2xl border border-gray-700/50 hover:border-blue-500/50 hover:bg-gray-800 hover:shadow-2xl hover:shadow-blue-900/20 transition-all duration-300 transform hover:-translate-y-1 relative overflow-hidden"
-                >
-                  <div className="absolute top-0 right-0 p-4">
-                    {dDay !== 999 && (
-                      <span className={`px-2 py-1 rounded-md text-xs font-bold ${getDDayColor(dDay)} shadow-sm`}>
-                        {getDDayLabel(dDay)}
-                      </span>
-                    )}
-                  </div>
-
-                  <div className="flex flex-col h-full">
-                    <div className="mb-4">
-                      <div className="flex items-center gap-2 mb-2">
-                        {getSourceBadge(job.source)}
-                        <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-medium bg-gray-700 text-gray-300 border border-gray-600">
-                          {job.designatedCompanyInfo?.location || '지역 미정'}
-                        </span>
+          <>
+            {viewMode === 'grid' ? (
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {currentJobs.map((job, idx) => {
+                  const dDay = calculateDDay(job.deadline);
+                  return (
+                    <a
+                      key={idx}
+                      href={job.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group block p-6 bg-gray-800/80 backdrop-blur-sm rounded-2xl border border-gray-700/50 hover:border-blue-500/50 hover:bg-gray-800 hover:shadow-2xl hover:shadow-blue-900/20 transition-all duration-300 transform hover:-translate-y-1 relative overflow-hidden"
+                    >
+                      <div className="absolute top-0 right-0 p-4">
+                        {dDay !== 999 && (
+                          <span className={`px-2 py-1 rounded-md text-xs font-bold ${getDDayColor(dDay)} shadow-sm`}>
+                            {getDDayLabel(dDay)}
+                          </span>
+                        )}
                       </div>
-                      <h3 className="text-lg font-bold text-white leading-tight group-hover:text-blue-300 transition-colors mb-1 break-keep">
-                        {job.title}
-                      </h3>
-                      <div className="text-gray-400 text-sm font-medium">
-                        {job.company}
-                      </div>
-                    </div>
 
-                    <div className="mt-auto pt-4 border-t border-gray-700/50 flex items-center justify-between text-xs text-gray-500">
-                      <span>{job.deadline}</span>
-                      {job.isDesignated && (
-                        <div className="flex items-center text-blue-400" title="병역지정업체 검증됨">
-                          <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-                          지정업체
+                      <div className="flex flex-col h-full">
+                        <div className="mb-4">
+                          <div className="flex items-center gap-2 mb-2">
+                            {getSourceBadge(job.source)}
+                            <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-medium bg-gray-700 text-gray-300 border border-gray-600">
+                              {job.designatedCompanyInfo?.location || '지역 미정'}
+                            </span>
+                          </div>
+                          <h3 className="text-lg font-bold text-white leading-tight group-hover:text-blue-300 transition-colors mb-1 break-keep">
+                            {job.title}
+                          </h3>
+                          <div className="text-gray-400 text-sm font-medium">
+                            {job.company}
+                          </div>
                         </div>
-                      )}
-                    </div>
-                  </div>
-                </a>
-              );
-            })}
-          </div>
+
+                        <div className="mt-auto pt-4 border-t border-gray-700/50 flex items-center justify-between text-xs text-gray-500">
+                          <span>{job.deadline}</span>
+                          {job.isDesignated && (
+                            <div className="flex items-center text-blue-400" title="병역지정업체 검증됨">
+                              <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
+                              지정업체
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </a>
+                  );
+                })}
+              </div>
+            ) : (
+              // List (Row) View
+              <div className="space-y-3">
+                {currentJobs.map((job, idx) => {
+                  const dDay = calculateDDay(job.deadline);
+                  return (
+                    <a
+                      key={idx}
+                      href={job.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group flex flex-col md:flex-row md:items-center justify-between p-4 bg-gray-800/80 backdrop-blur-sm rounded-xl border border-gray-700/50 hover:border-blue-500/50 hover:bg-gray-800 hover:shadow-lg transition-all duration-200"
+                    >
+                      <div className="flex-grow">
+                        <div className="flex items-center gap-2 mb-1">
+                          {getSourceBadge(job.source)}
+                          <span className="text-xs text-gray-400">{job.designatedCompanyInfo?.location || '지역 미정'}</span>
+                          {job.isDesignated && (
+                            <span className="flex items-center text-blue-400 text-[10px]" title="병역지정업체 검증됨">
+                              <svg className="w-3 h-3 mr-0.5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
+                              지정
+                            </span>
+                          )}
+                        </div>
+                        <h3 className="text-base font-bold text-white group-hover:text-blue-300 transition-colors">
+                          {job.title}
+                        </h3>
+                        <div className="text-gray-400 text-sm">
+                          {job.company}
+                        </div>
+                      </div>
+
+                      <div className="mt-2 md:mt-0 flex items-center gap-4 text-sm min-w-max">
+                        <span className="text-gray-500">{job.deadline}</span>
+                        {dDay !== 999 && (
+                          <span className={`px-2 py-1 rounded-md text-xs font-bold ${getDDayColor(dDay)}`}>
+                            {getDDayLabel(dDay)}
+                          </span>
+                        )}
+                      </div>
+                    </a>
+                  );
+                })}
+              </div>
+            )}
+
+            {/* Pagination Controls */}
+            {totalPages > 1 && (
+              <div className="flex justify-center mt-12 gap-2">
+                <button
+                  onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+                  disabled={currentPage === 1}
+                  className="px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 text-gray-300 disabled:opacity-50 hover:bg-gray-700"
+                >
+                  이전
+                </button>
+                <div className="flex items-center px-4 font-bold text-white">
+                  {currentPage} / {totalPages}
+                </div>
+                <button
+                  onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+                  disabled={currentPage === totalPages}
+                  className="px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 text-gray-300 disabled:opacity-50 hover:bg-gray-700"
+                >
+                  다음
+                </button>
+              </div>
+            )}
+          </>
         )}
 
         {!loading && filteredAndSortedJobs.length === 0 && (
