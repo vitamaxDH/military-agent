@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Job } from '../types';
+import { z } from 'zod';
+import { Job, JobSchema } from '../types';
 import { calculateDDay } from '../utils';
 
 export const useJobs = () => {
@@ -18,7 +19,16 @@ export const useJobs = () => {
         fetch('/data/matched_jobs.json')
             .then((res) => res.json())
             .then((data) => {
-                setJobs(data);
+                // Validate data with Zod
+                const result = z.array(JobSchema).safeParse(data);
+
+                if (result.success) {
+                    setJobs(result.data);
+                } else {
+                    console.error("Data validation failed:", result.error);
+                    // Fallback or empty state could be handled here
+                    setJobs([]);
+                }
                 setLoading(false);
             })
             .catch((err) => {
