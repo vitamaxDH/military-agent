@@ -5022,5 +5022,101 @@
       "phone": "",
       "mainProduct": ""
     }
+  },
+  {
+    "company": "누비랩",
+    "title": "[병역특례] Front-End Engineer (산업기능요원 전직/보충역)",
+    "link": "https://www.wanted.co.kr/wd/326365",
+    "deadline": "상시채용",
+    "sector": "IT/SW",
+    "source": "wanted",
+    "isDesignated": true,
+    "designatedCompanyInfo": {
+      "name": "누비랩",
+      "sector": "",
+      "location": "서울",
+      "phone": "",
+      "mainProduct": ""
+    }
+  },
+  {
+    "company": "모두싸인",
+    "title": "[병역 특례] 프론트엔드 엔지니어 (산업기능요원)",
+    "link": "https://www.wanted.co.kr/wd/317141",
+    "deadline": "상시채용",
+    "sector": "IT/SW",
+    "source": "wanted",
+    "isDesignated": true,
+    "designatedCompanyInfo": {
+      "name": "(주)모두싸인",
+      "sector": "",
+      "location": "서울",
+      "phone": "",
+      "mainProduct": ""
+    }
+  },
+  {
+    "company": "리비바이오",
+    "title": "[병역특례] 백엔드개발 산업기능요원(Node.js)",
+    "link": "https://www.wanted.co.kr/wd/277345",
+    "deadline": "상시채용",
+    "sector": "IT/SW",
+    "source": "wanted",
+    "isDesignated": true,
+    "designatedCompanyInfo": {
+      "name": "(주)리비바이오",
+      "sector": "",
+      "location": "서울",
+      "phone": "",
+      "mainProduct": ""
+    }
+  },
+  {
+    "company": "소프트스퀘어드",
+    "title": "[프로덕트] 프론트엔드 개발자 (산업기능요원 보충역/전직 가능)",
+    "link": "https://www.wanted.co.kr/wd/244564",
+    "deadline": "상시채용",
+    "sector": "IT/SW",
+    "source": "wanted",
+    "isDesignated": true,
+    "designatedCompanyInfo": {
+      "name": "(주)소프트스퀘어드",
+      "sector": "",
+      "location": "서울",
+      "phone": "",
+      "mainProduct": ""
+    }
+  },
+  {
+    "company": "세나클",
+    "title": "[네이버계열사]Backend Server 개발(산업기능요원 보충역/현역 전직)",
+    "link": "https://www.wanted.co.kr/wd/196059",
+    "deadline": "상시채용",
+    "sector": "IT/SW",
+    "source": "wanted",
+    "isDesignated": true,
+    "designatedCompanyInfo": {
+      "name": "(주)세나클",
+      "sector": "",
+      "location": "서울",
+      "phone": "",
+      "mainProduct": ""
+    }
+  },
+  {
+    "company": "전능아이티",
+    "title": "[Smartdoctor] 산업기능요원(보충역) 개발자",
+    "link": "https://www.wanted.co.kr/wd/75585",
+    "deadline": "상시채용",
+    "sector": "IT/SW",
+    "source": "wanted",
+    "isDesignated": true,
+    "designatedCompanyInfo": {
+      "name": "전능아이티(주)",
+      "sector": "",
+      "location": "서울",
+      "phone": "",
+      "mainProduct": ""
+    }
   }
 ]

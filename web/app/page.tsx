@@ -68,6 +68,8 @@ const getSourceBadge = (source: string) => {
       return <span className="bg-blue-50 text-blue-600 text-[10px] px-1.5 py-0.5 rounded font-bold border border-blue-200">잡코리아</span>;
     case 'jumpit':
       return <span className="bg-green-100 text-green-800 text-[10px] px-1.5 py-0.5 rounded font-bold border border-green-200">점핏</span>;
+    case 'wanted':
+      return <span className="bg-blue-400 text-white text-[10px] px-1.5 py-0.5 rounded font-bold border border-blue-500">원티드</span>;
     default:
       return <span className="bg-gray-200 text-gray-800 text-[10px] px-1.5 py-0.5 rounded font-bold">기타</span>;
   }
@@ -77,7 +79,8 @@ export default function Home() {
   const [jobs, setJobs] = useState<Job[]>([]);
   const [search, setSearch] = useState('');
   const [selectedRegion, setSelectedRegion] = useState('All');
-  const [onlyIT, setOnlyIT] = useState(false); // New State for IT Filter
+  const [selectedSource, setSelectedSource] = useState('All'); // New Source Filter
+  const [onlyIT, setOnlyIT] = useState(false);
   const [sortBy, setSortBy] = useState('deadline');
   const [loading, setLoading] = useState(true);
 
@@ -106,6 +109,7 @@ export default function Home() {
         (job.designatedCompanyInfo?.location || '').includes(search);
 
       const matchesRegion = selectedRegion === 'All' || job.designatedCompanyInfo?.location === selectedRegion;
+      const matchesSource = selectedSource === 'All' || job.source === selectedSource; // Source Logic
 
       // IT/SW Filter Logic
       let matchesSector = true;
@@ -116,7 +120,7 @@ export default function Home() {
         matchesSector = itKeywords.some(k => sectorLower.includes(k) || titleLower.includes(k));
       }
 
-      return matchesSearch && matchesRegion && matchesSector;
+      return matchesSearch && matchesRegion && matchesSector && matchesSource;
     });
 
     if (sortBy === 'deadline') {
@@ -128,31 +132,40 @@ export default function Home() {
     }
 
     return result;
-  }, [jobs, search, selectedRegion, sortBy, onlyIT]);
+  }, [jobs, search, selectedRegion, selectedSource, sortBy, onlyIT]);
 
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-100 font-sans">
+    <div className="min-h-screen bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-800 via-gray-900 to-black text-gray-100 font-sans relative overflow-hidden">
+
+      {/* Taegeuk Inspired Background Elements (Subtle) */}
+      <div className="absolute top-[-10%] left-[-10%] w-[40vw] h-[40vw] bg-blue-600/10 rounded-full blur-[100px] pointer-events-none"></div>
+      <div className="absolute bottom-[-10%] right-[-10%] w-[40vw] h-[40vw] bg-red-600/10 rounded-full blur-[100px] pointer-events-none"></div>
+
       <header className="fixed top-0 w-full z-10 bg-gray-900/80 backdrop-blur-md border-b border-gray-800">
         <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent">
-            병역일터 x 채용플랫폼
-          </h1>
-          <span className="text-sm text-gray-400">
-            산업기능요원 채용공고
+          <div className="flex items-center gap-2">
+            {/* Minimal Taegeuk Icon */}
+            <div className="w-6 h-6 rounded-full bg-gradient-to-b from-red-500 to-blue-600 border border-gray-700 shadow-lg" title="대한민국"></div>
+            <h1 className="text-xl font-bold bg-gradient-to-r from-gray-100 to-gray-400 bg-clip-text text-transparent">
+              병역일터 x 채용플랫폼
+            </h1>
+          </div>
+          <span className="text-sm text-gray-400 font-medium">
+            산업기능요원 Aggregator
           </span>
         </div>
       </header>
 
-      <main className="pt-24 pb-12 max-w-5xl mx-auto px-4">
+      <main className="pt-24 pb-12 max-w-5xl mx-auto px-4 relative z-1">
         <div className="mb-10 text-center space-y-4">
-          <div className="inline-block px-3 py-1 rounded-full bg-teal-900/30 text-teal-400 text-xs font-semibold mb-2 border border-teal-900/50">
-            Beta v1.2
+          <div className="inline-block px-3 py-1 rounded-full bg-gray-800/80 text-gray-300 text-xs font-semibold mb-2 border border-gray-700 shadow-sm">
+            v2.0 Beta
           </div>
-          <h2 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
+          <h2 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl drop-shadow-sm">
             병역혜택 + 커리어 성장
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            병무청 지정업체와 <span className="text-teal-400 font-semibold">사람인/잡코리아</span> 채용공고를 교차 검증하여 산업기능요원 포지션만 모았습니다.
+            병무청 지정업체와 <span className="text-blue-400 font-semibold">채용플랫폼</span> 공고를 교차 검증하여 산업기능요원 포지션만 모았습니다.
           </p>
         </div>
 
@@ -165,7 +178,7 @@ export default function Home() {
                 placeholder="기업명, 포지션 검색..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="w-full px-5 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition shadow-sm"
+                className="w-full px-5 py-3 rounded-xl bg-gray-800/50 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition shadow-sm backdrop-blur-sm"
               />
               <div className="absolute right-4 top-3.5 text-gray-500">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -176,9 +189,20 @@ export default function Home() {
 
             <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 no-scrollbar">
               <select
+                value={selectedSource}
+                onChange={(e) => setSelectedSource(e.target.value)}
+                className="px-4 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                <option value="All">모든 플랫폼</option>
+                <option value="saramin">사람인</option>
+                <option value="jobkorea">잡코리아</option>
+                <option value="wanted">원티드</option>
+              </select>
+
+              <select
                 value={selectedRegion}
                 onChange={(e) => setSelectedRegion(e.target.value)}
-                className="px-4 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-500"
+                className="px-4 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 {regions.map(r => (
                   <option key={r} value={r}>{r === 'All' ? '전체 지역' : r}</option>
@@ -188,7 +212,7 @@ export default function Home() {
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
-                className="px-4 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-500"
+                className="px-4 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 <option value="deadline">마감임박순</option>
                 <option value="recent">관련도순</option>
@@ -197,7 +221,7 @@ export default function Home() {
           </div>
 
           <div className="flex items-center gap-2">
-            <label className={`flex items-center gap-2 px-4 py-2 rounded-full border cursor-pointer transition-all select-none ${onlyIT ? 'bg-blue-600 border-blue-500 text-white' : 'bg-gray-800 border-gray-700 text-gray-400 hover:border-gray-500'}`}>
+            <label className={`flex items-center gap-2 px-4 py-2 rounded-full border cursor-pointer transition-all select-none ${onlyIT ? 'bg-blue-600 border-blue-500 text-white shadow-lg shadow-blue-900/50' : 'bg-gray-800 border-gray-700 text-gray-400 hover:border-gray-500'}`}>
               <input
                 type="checkbox"
                 checked={onlyIT}
@@ -211,7 +235,7 @@ export default function Home() {
 
         {loading ? (
           <div className="flex justify-center items-center h-64">
-            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-teal-500"></div>
+            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
           </div>
         ) : (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -223,11 +247,11 @@ export default function Home() {
                   href={job.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group block p-6 bg-gray-800 rounded-2xl border border-gray-700 hover:border-teal-500/50 hover:bg-gray-800/80 hover:shadow-2xl hover:shadow-teal-500/10 transition-all duration-300 transform hover:-translate-y-1 relative overflow-hidden"
+                  className="group block p-6 bg-gray-800/80 backdrop-blur-sm rounded-2xl border border-gray-700/50 hover:border-blue-500/50 hover:bg-gray-800 hover:shadow-2xl hover:shadow-blue-900/20 transition-all duration-300 transform hover:-translate-y-1 relative overflow-hidden"
                 >
                   <div className="absolute top-0 right-0 p-4">
                     {dDay !== 999 && (
-                      <span className={`px-2 py-1 rounded-md text-xs font-bold ${getDDayColor(dDay)}`}>
+                      <span className={`px-2 py-1 rounded-md text-xs font-bold ${getDDayColor(dDay)} shadow-sm`}>
                         {getDDayLabel(dDay)}
                       </span>
                     )}
@@ -241,7 +265,7 @@ export default function Home() {
                           {job.designatedCompanyInfo?.location || '지역 미정'}
                         </span>
                       </div>
-                      <h3 className="text-lg font-bold text-white leading-tight group-hover:text-teal-300 transition-colors mb-1 break-keep">
+                      <h3 className="text-lg font-bold text-white leading-tight group-hover:text-blue-300 transition-colors mb-1 break-keep">
                         {job.title}
                       </h3>
                       <div className="text-gray-400 text-sm font-medium">
@@ -266,16 +290,16 @@ export default function Home() {
         )}
 
         {!loading && filteredAndSortedJobs.length === 0 && (
-          <div className="text-center py-20 text-gray-500">
-            <p className="text-xl mb-2">검색 결과가 없습니다.</p>
+          <div className="text-center py-20 text-gray-500 bg-gray-800/30 rounded-3xl border border-gray-800">
+            <p className="text-xl mb-2 font-semibold text-gray-400">검색 결과가 없습니다.</p>
             <p className="text-sm">다른 검색어나 필터를 시도해보세요.</p>
           </div>
         )}
       </main>
 
-      <footer className="border-t border-gray-800 mt-12 py-8 bg-gray-900">
+      <footer className="border-t border-gray-800 mt-12 py-8 bg-gray-900/50 backdrop-blur-md">
         <div className="max-w-5xl mx-auto px-4 text-center text-gray-600 text-sm">
-          &copy; 2024 Military Job Aggregator. Data sourced from MMA, Saramin, and JobKorea.
+          &copy; 2024 Military Job Aggregator. Data sourced from MMA, Saramin, JobKorea, and Wanted.
         </div>
       </footer>
     </div>
