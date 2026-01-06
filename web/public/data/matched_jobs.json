@@ -9,10 +9,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)폴리큐브",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-554-6295",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -25,10 +27,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "드림메카텍",
-      "sector": "",
+      "sector": "철강",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-366-5623",
+      "mainProduct": "",
+      "activePersonnel": 4,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -41,26 +45,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)코웰",
-      "sector": "",
+      "sector": "철강",
       "location": "경남",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "에이펙스인텍(주)",
-    "title": "LED조명, 태양광 생산직종 산업기능요원(보충역):- 모집공고",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52703985&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=79017c3c-da5c-4bea-83aa-cd960597153f",
-    "deadline": "채용시",
-    "sector": "조립, 입식근무, 주간근무, 포장, 제조 외                    등록일 26/01/01",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "에이펙스인텍(주)",
-      "sector": "",
-      "location": "대구.경북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "055-383-1801",
+      "mainProduct": "해당사항없음",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 605
     }
   },
   {
@@ -73,10 +63,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)케이시스",
-      "sector": "",
+      "sector": "전기",
       "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "051-642-7800",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -89,10 +81,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에스비씨리니어",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-988-9134",
+      "mainProduct": "해당사항없음",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -105,10 +99,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)나노신소재",
-      "sector": "",
+      "sector": "화학",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "044-275-6966",
+      "mainProduct": "그외기타분류안된화학제품제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -121,10 +117,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)케이케이디씨",
-      "sector": "",
+      "sector": "전기",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-942-9332",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -137,10 +135,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)엠오브이시스템",
-      "sector": "",
+      "sector": "전기",
       "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "052-288-5052",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -153,10 +153,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "드림메카텍",
-      "sector": "",
+      "sector": "철강",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-366-5623",
+      "mainProduct": "",
+      "activePersonnel": 4,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -169,10 +171,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -185,26 +189,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "(주)젬",
-    "title": "LED조명 생산직[산업기능요원 현역,보충역] 모집합니다",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52664746&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=79017c3c-da5c-4bea-83aa-cd960597153f",
-    "deadline": "~ 01/25(일)",
-    "sector": "단순생산직, 생산, 전기설비                    등록일 25/12/26",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "젬",
-      "sector": "",
-      "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -217,10 +207,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)프람트테크놀로지",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "025536441",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -233,10 +225,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)리비바이오",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4304-0216",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -249,10 +243,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)더줌코리아",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "010-7600-6809",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -266,9 +262,7 @@
     "designatedCompanyInfo": {
       "name": "에스에스케이",
       "sector": "",
-      "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "location": "경인"
     }
   },
   {
@@ -280,27 +274,13 @@
     "source": "saramin",
     "isDesignated": true,
     "designatedCompanyInfo": {
-      "name": "제이원",
-      "sector": "",
-      "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "한국산업기계(주)",
-    "title": "산업기능요원(현역 전직희망자) 모집",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52428186&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=79017c3c-da5c-4bea-83aa-cd960597153f",
-    "deadline": "~ 01/27(화)",
-    "sector": "기계조작원, 금속, 샌딩, 상주근무, 생산 외                    수정일 25/11/28",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "한국산업기계(주)",
-      "sector": "",
-      "location": "대구.경북",
-      "phone": "",
-      "mainProduct": ""
+      "name": "(주)제이원",
+      "sector": "기계",
+      "location": "경인",
+      "phone": "070-5117-3637",
+      "mainProduct": "기타전자부품제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -313,10 +293,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)게임엔",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-6374-3101",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -329,26 +311,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)뉴앤뉴",
-      "sector": "",
+      "sector": "생활용품",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "진한공업(주)",
-    "title": "병역특례,산업기능요원 현역 모집(기술은 남고, 군대는 안 간다)",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52583821&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=79017c3c-da5c-4bea-83aa-cd960597153f",
-    "deadline": "~ 01/15(목)",
-    "sector": "사출성형, 소비재, 생활용품                    등록일 25/12/16",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "진한공업(주)",
-      "sector": "",
-      "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-590-8711",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -361,26 +329,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)도스코",
-      "sector": "",
+      "sector": "기계",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "한국학술정보(주)",
-    "title": "한국학술정보(주) 보충역 산업기능요원 모집",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52626108&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=79017c3c-da5c-4bea-83aa-cd960597153f",
-    "deadline": "~ 01/21(수)",
-    "sector": "후가공, 포장, 출판사, 인쇄·제본                    수정일 25/12/22",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "한국학술정보(주)",
-      "sector": "",
-      "location": "경기북부",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-665-3481",
+      "mainProduct": "",
+      "activePersonnel": 3,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -393,10 +347,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)지넷시스템",
-      "sector": "",
+      "sector": "통신기기",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02--890--1605",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -409,10 +365,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)핑거",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02--799--2548",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -425,10 +383,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)웰크론헬스케어",
-      "sector": "",
+      "sector": "생활용품",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "032-270-4603",
+      "mainProduct": "스타킹및기타양말편조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -441,10 +401,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)선우커뮤니케이션",
-      "sector": "",
+      "sector": "전자",
       "location": "경기북부",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-535-1981",
+      "mainProduct": "유선통신기기제조업",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -457,10 +419,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)한국클라우드",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-5001-2271",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -473,10 +437,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)엘앤케이바이오메드",
-      "sector": "",
+      "sector": "의료의약",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "026-717-1998",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -489,10 +455,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)바맥스",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-683-9111",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -505,10 +473,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)아이체",
-      "sector": "",
+      "sector": "생활용품",
       "location": "경기북부",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-592-2926",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -521,42 +491,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)진성이엔지",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "퓨렌스(주)",
-    "title": "산업기능요원(보충역) 시스템 엔지니어(SE) 채용",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52553428&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=79017c3c-da5c-4bea-83aa-cd960597153f",
-    "deadline": "~ 01/11(일)",
-    "sector": "기술지원, 유지보수, SE(시스템엔지니어), Linux, 서버구축및관리 외                    등록일 25/12/12",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "퓨렌스(주)",
-      "sector": "",
-      "location": "서울",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "한시큐리티(주)",
-    "title": "한시큐리티  병역특례(보충역, 산업기능요원)  채용",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52603996&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=79017c3c-da5c-4bea-83aa-cd960597153f",
-    "deadline": "~ 02/16(월)",
-    "sector": "보안컨설팅, 정보보안, IT컨설팅, SE(시스템엔지니어), 기술영업 외                    수정일 25/12/27",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "한시큐리티(주)",
-      "sector": "",
-      "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-743-7771",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -569,10 +509,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)오리엔트텔레콤",
-      "sector": "",
+      "sector": "통신기기",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-428-7932",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -585,10 +527,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)한국해양기상기술",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "0236673255",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -601,10 +545,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -617,10 +563,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -633,10 +581,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -649,10 +599,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -665,10 +617,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -681,10 +635,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -697,10 +653,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -713,10 +671,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -729,10 +689,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -745,10 +707,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -761,10 +725,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -777,26 +743,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)세홍",
-      "sector": "",
+      "sector": "전기",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "한양시스템(주)",
-    "title": "전장 QA-QC 산업기능요원-현역 전직자 모집",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52582550&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=79017c3c-da5c-4bea-83aa-cd960597153f",
-    "deadline": "~ 01/15(목)",
-    "sector": "QA, QC, 회로설계, 전기, 회로설계 외                    수정일 25/12/16",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "한양시스템",
-      "sector": "",
-      "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "021-670-1610",
+      "mainProduct": "조명장치제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -809,10 +761,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에이치에스지",
-      "sector": "",
+      "sector": "전기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "032-673-3710",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -825,10 +779,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "신화레미콘(주)",
-      "sector": "",
+      "sector": "시멘요업",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "042-932-3551",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -841,10 +797,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)모두싸인",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-5118-1226",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -857,10 +815,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)엔티에스",
-      "sector": "",
+      "sector": "기계",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-551-9650",
+      "mainProduct": "물질검사·측정및분석기구제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -873,10 +833,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)리비바이오",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4304-0216",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -889,10 +851,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)세광정공",
-      "sector": "",
+      "sector": "철강",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-557-6997",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -905,10 +869,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)더줌코리아",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "010-7600-6809",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -921,10 +887,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)제이엘케이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4651-0560",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -937,10 +905,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "대웅알티(주)",
-      "sector": "",
+      "sector": "화학",
       "location": "경남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "055-334-2229",
+      "mainProduct": "그외기타고무제품제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 605
     }
   },
   {
@@ -953,10 +923,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)현텍",
-      "sector": "",
+      "sector": "철강",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-241-0889",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -969,10 +941,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "씨엔모터스",
-      "sector": "",
+      "sector": "기계",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "032-575-3966",
+      "mainProduct": "",
+      "activePersonnel": 4,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -985,10 +959,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -1001,10 +977,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)파마리서치",
-      "sector": "",
+      "sector": "의료의약",
       "location": "강원영동",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-8039-1534",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -1017,10 +995,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)나이벡",
-      "sector": "",
+      "sector": "의료의약",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-532-7458",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -1033,26 +1013,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "삼전순약공업(주)",
-      "sector": "",
+      "sector": "화학",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "한국로스트왁스(주)",
-    "title": "한국로스트왁스(주) 부문별 신입 및 경력사원 모집",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52335050&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=79017c3c-da5c-4bea-83aa-cd960597153f",
-    "deadline": "~ 01/31(토)",
-    "sector": "경리, 경리사무원, 기업회계, 세무회계, 재무회계 외                    수정일 25/12/16",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "한국로스트왁스(주)",
-      "sector": "",
-      "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-668-0701",
+      "mainProduct": "해당사항없음",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1065,26 +1031,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "삼진산업(주)",
-      "sector": "",
+      "sector": "화학",
       "location": "경남",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "청암금속(주)",
-    "title": "제조단순종사원 경력무관 채용 - 정규직",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52717411&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=79017c3c-da5c-4bea-83aa-cd960597153f",
-    "deadline": "~ 02/02(월)",
-    "sector": "ER(노무관리), 단순생산직, 외관검사원, 품질검사원, 제조가공 외                    등록일 26/01/03",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "청암금속(주)",
-      "sector": "",
-      "location": "경남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "055-351-0257",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 605
     }
   },
   {
@@ -1097,10 +1049,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)오스테오닉",
-      "sector": "",
+      "sector": "의료의약",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "026-902-8400",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1113,10 +1067,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디지트론",
-      "sector": "",
+      "sector": "전자",
       "location": "대구.경북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-707-1891",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -1129,10 +1085,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)한일정공",
-      "sector": "",
+      "sector": "기계",
       "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "051-330-0700",
+      "mainProduct": "해당사항없음",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -1145,10 +1103,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)한도",
-      "sector": "",
+      "sector": "기계",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-588-1212",
+      "mainProduct": "해당사항없음",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -1161,10 +1121,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)씨에이시스템",
-      "sector": "",
+      "sector": "기계",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-432-2261",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -1177,26 +1139,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)진코스텍",
-      "sector": "",
+      "sector": "화학",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "풍국기업(주)",
-    "title": "[안전벨트] 교통편리·초보자 환영 2조2교대 제조업 생산직 모집",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52623335&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=79017c3c-da5c-4bea-83aa-cd960597153f",
-    "deadline": "~ 02/20(금)",
-    "sector": "단순생산직, 외관검사원, 생산, 섬유                    등록일 25/12/22",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "풍국기업(주)",
-      "sector": "",
-      "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-433-5575",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -1209,26 +1157,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)지엠디소프트",
-      "sector": "",
+      "sector": "정보처리",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "터보윈(주)",
-    "title": "[터보윈] 생산팀 Package 조립 신입/경력 모집",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52594786&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=79017c3c-da5c-4bea-83aa-cd960597153f",
-    "deadline": "~ 01/16(금)",
-    "sector": "생산, 생산기술, 기계설비                    수정일 25/12/17",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "터보윈(주)",
-      "sector": "",
-      "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-778-3511",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1241,10 +1175,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)얼라인드제네틱스",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-689-4164",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1257,10 +1193,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)한슬",
-      "sector": "",
+      "sector": "전자",
       "location": "대구.경북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "053-626-7805",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -1273,74 +1211,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)바텍",
-      "sector": "",
+      "sector": "전자",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "영도산업(주)",
-    "title": "영도산업(주) 생산1본부 조립반 생산직 채용",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52067416&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "채용시",
-    "sector": "조립, 기계설비                    수정일 26/01/06",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "영도산업(주)",
-      "sector": "",
-      "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "영도산업(주)",
-    "title": "영도산업(주) 생산1본부 생산1팀 생산관리 경력직 채용",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52042719&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "채용시",
-    "sector": "생산관리, 공정관리, 기계설비                    수정일 26/01/06",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "영도산업(주)",
-      "sector": "",
-      "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "영도산업(주)",
-    "title": "품질경영본부 신차품질팀 담당자 채용 (신입)",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52120939&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "채용시",
-    "sector": "불량분석, 품질분석, 품질관리, 품질보증, 기계설비                    수정일 25/12/12",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "영도산업(주)",
-      "sector": "",
-      "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "영도산업(주)",
-    "title": "품질경영본부 품질2팀 품질관리 담당자 채용 (경력)",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52120901&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "채용시",
-    "sector": "QC, 품질분석, 품질관리, 품질보증, 기계설비                    수정일 25/12/12",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "영도산업(주)",
-      "sector": "",
-      "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "0313799526",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1353,10 +1229,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)조일기업",
-      "sector": "",
+      "sector": "기계",
       "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "051-979-5500",
+      "mainProduct": "해당사항없음",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -1369,10 +1247,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)수일개발",
-      "sector": "",
+      "sector": "의료의약",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-3463-0041",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1385,10 +1265,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)한일정공",
-      "sector": "",
+      "sector": "기계",
       "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "051-330-0700",
+      "mainProduct": "해당사항없음",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -1401,10 +1283,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)케미랜드",
-      "sector": "",
+      "sector": "화학",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-671-8449",
+      "mainProduct": "화장품제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1417,10 +1301,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "데브시스터즈(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-8828-9699",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1433,10 +1319,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)정남",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-354-3511",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1449,10 +1337,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)진코스텍",
-      "sector": "",
+      "sector": "화학",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-433-5575",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -1465,26 +1355,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "대성정밀(주)",
-      "sector": "",
+      "sector": "기계",
       "location": "대구.경북",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "코오롱스페이스웍스(주)",
-    "title": "코오롱스페이스웍스 인사 경력자 채용",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52616139&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "채용시",
-    "sector": "인사, 조선, 항공, 우주, 선박                    등록일 25/12/19",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "코오롱스페이스웍스(주)",
-      "sector": "",
-      "location": "경남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "054-463-3114",
+      "mainProduct": "기타조립금속제품제조및금속처리업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -1497,10 +1373,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "소나테크(주)",
-      "sector": "",
+      "sector": "기계",
       "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4285-4949",
+      "mainProduct": "기타기계및장비제조업",
+      "activePersonnel": 4,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -1513,10 +1391,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)오스테오닉",
-      "sector": "",
+      "sector": "의료의약",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "026-902-8400",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1529,10 +1409,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)오스테오닉",
-      "sector": "",
+      "sector": "의료의약",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "026-902-8400",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1545,10 +1427,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에너자이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-883-1231",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1561,10 +1445,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에너자이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-883-1231",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1577,10 +1463,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에너자이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-883-1231",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1593,10 +1481,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에너자이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-883-1231",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1609,10 +1499,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에너자이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-883-1231",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1625,10 +1517,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에코스",
-      "sector": "",
+      "sector": "전기",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-548-1001",
+      "mainProduct": "기타발전기및전기변환장치제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1641,10 +1535,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)페이타랩",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4895-6476",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1657,10 +1553,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)코모텍",
-      "sector": "",
+      "sector": "전기",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-8039-7800",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1673,10 +1571,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)오토일렉스",
-      "sector": "",
+      "sector": "전기",
       "location": "경남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "055-337-2561",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 605
     }
   },
   {
@@ -1689,26 +1589,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)선진파워텍",
-      "sector": "",
+      "sector": "철강",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "올거나이즈코리아(주)",
-    "title": "Jr. React Front-end Engineer",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52615445&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "~ 01/17(토)",
-    "sector": "프론트엔드, CSS, HTML, Javascript, 컨텐츠제공                    수정일 25/12/19",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "올거나이즈코리아(주)",
-      "sector": "",
-      "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-647-3973",
+      "mainProduct": "기타철강산업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1721,10 +1607,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디케이아이테크놀로지",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-780-1340",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1737,10 +1625,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디케이아이테크놀로지",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-780-1340",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1753,10 +1643,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "누리디에스엠(주)",
-      "sector": "",
+      "sector": "통신기기",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-689-5835",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1769,10 +1661,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)미어캣게임즈",
-      "sector": "",
+      "sector": "게임S/W",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4335-0361",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1785,26 +1679,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)원오토텍",
-      "sector": "",
+      "sector": "기계",
       "location": "경남",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "포인드(주)",
-    "title": "포인드(주) 인공지능·딥러닝 개발자(신입) 채용",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52737760&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "~ 02/05(목)",
-    "sector": "딥러닝, 머신러닝, 빅데이터, 솔루션, 알고리즘 외                    등록일 26/01/06",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "포인드(주)",
-      "sector": "",
-      "location": "대구.경북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "055-275-3944",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 605
     }
   },
   {
@@ -1817,90 +1697,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)윌비에스엔티",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "영도산업(주)",
-    "title": "영도산업(주) 생산2본부 생산기술 경력직 채용",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52032258&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "채용시",
-    "sector": "공정설계, 생산자동화, 지그, 생산기술, 기계설비                    수정일 26/01/06",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "영도산업(주)",
-      "sector": "",
-      "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "영도산업(주)",
-    "title": "품질경영본부  A/S기술직 경력채용(전국 지역별 배치)",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52120961&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "채용시",
-    "sector": "정비기사, 자동차정비, 기계설비                    수정일 25/12/12",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "영도산업(주)",
-      "sector": "",
-      "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "영도산업(주)",
-    "title": "영도산업(주) 생산1본부 자동반 CNC 등 경력직 채용",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52067441&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "채용시",
-    "sector": "범용밀링, 자동선반, MCT, NC/CNC밀링, NC/CNC보링 외                    수정일 25/12/04",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "영도산업(주)",
-      "sector": "",
-      "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "영도산업(주)",
-    "title": "품질경영본부 A/S 행정직 인원 채용 (계약직)",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52120882&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "채용시",
-    "sector": "고객안내, 고객응대, 접수/예약, 전화상담, 해피콜 외                    수정일 25/12/12",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "영도산업(주)",
-      "sector": "",
-      "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "한광전기공업(주)",
-    "title": "한광전기공업(주) 생산직 병역특례(공익) 모집",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52567697&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "~ 01/30(금)",
-    "sector": "생산, 건설현장                    등록일 25/12/15",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "한광전기공업(주)",
-      "sector": "",
-      "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-376-2114",
+      "mainProduct": "해당사항없음",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1913,10 +1715,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)네비웍스",
-      "sector": "",
+      "sector": "정보처리",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-687-2000",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1929,10 +1733,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "금오에이디에스",
-      "sector": "",
+      "sector": "전기",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-585-2870",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -1945,10 +1751,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)세진전자통신",
-      "sector": "",
+      "sector": "통신기기",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9703",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1961,10 +1769,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)오스테오닉",
-      "sector": "",
+      "sector": "의료의약",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "026-902-8400",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -1977,10 +1787,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "몬드리안에이아이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "032-713-7984",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -1993,10 +1805,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에너자이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-883-1231",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2009,10 +1823,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에너자이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-883-1231",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2025,26 +1841,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에너자이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "(주)이성테크",
-    "title": "[신입/보충역] 자재부 신입 사원 모집",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52676757&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "~ 01/28(수)",
-    "sector": "자재관리, 기타제조업, 제조업 회사본사                    등록일 25/12/29",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "이성테크",
-      "sector": "",
-      "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-883-1231",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2057,10 +1859,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)더한기술",
-      "sector": "",
+      "sector": "기계",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "042-932-4017",
+      "mainProduct": "공기조화장치제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2073,10 +1877,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)엔씨씨",
-      "sector": "",
+      "sector": "정보처리",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "042-935-0117",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2089,26 +1895,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "서우실업(주)",
-      "sector": "",
+      "sector": "기계",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "올거나이즈코리아(주)",
-    "title": "Python Back-end Enginner",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52615457&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "~ 01/17(토)",
-    "sector": "백엔드/서버개발, Django, Node.js, NoSQL, SpringBoot 외                    수정일 25/12/19",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "올거나이즈코리아(주)",
-      "sector": "",
-      "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "032-821-6401",
+      "mainProduct": "기체펌프및압축기제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -2121,58 +1913,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜세신산업",
-      "sector": "",
+      "sector": "생활용품",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "포인드(주)",
-    "title": "포인드(주) 인공지능·딥러닝 개발자(경력) 채용",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52737767&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "~ 02/05(목)",
-    "sector": "딥러닝, 머신러닝, 빅데이터, 솔루션, 알고리즘 외                    등록일 26/01/06",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "포인드(주)",
-      "sector": "",
-      "location": "대구.경북",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "포인드(주)",
-    "title": "포인드(주) IT 기술영업 신입 채용공고",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52737776&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "~ 02/05(목)",
-    "sector": "기술영업, 솔루션기술영업, 소프트웨어개발                    등록일 26/01/06",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "포인드(주)",
-      "sector": "",
-      "location": "대구.경북",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "포인드(주)",
-    "title": "포인드(주) IT 기술영업 경력직 채용공고",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52737772&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "~ 02/05(목)",
-    "sector": "기술영업, 솔루션기술영업, 소프트웨어개발                    등록일 26/01/06",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "포인드(주)",
-      "sector": "",
-      "location": "대구.경북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-8841",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -2185,10 +1931,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인텍에프에이",
-      "sector": "",
+      "sector": "전기",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-218-4800",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2201,10 +1949,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인티그레이션",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "010-2537-4267",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2217,26 +1967,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜리브스메드",
-      "sector": "",
+      "sector": "의료의약",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "화인솔루션(주)",
-    "title": "산업기능요원(병역특례) 보충역, 현역 모집",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52320080&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=9aaec13d-610c-4640-9cfe-3666c98603d9",
-    "deadline": "상시채용",
-    "sector": "단순생산직, 품질검사원, 생산, 자동차부품                    수정일 25/11/17",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "화인솔루션 주식회사",
-      "sector": "",
-      "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-7708-3211",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2249,10 +1985,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜쿠즈락",
-      "sector": "",
+      "sector": "농산물가공",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-745-7427",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2265,26 +2003,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "세원푸드(주)",
-      "sector": "",
+      "sector": "식음료",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "주식회사형제제판",
-    "title": "[보충역 산업기능요원 가능] 레이저실 모집(신입 지원가능)",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52656754&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=c491e12c-8bf4-42ea-ba65-2c31e1833873",
-    "deadline": "채용시",
-    "sector": "기계조작원, 인쇄·제본                    수정일 25/12/25",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "형제제판",
-      "sector": "",
-      "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-761-0882",
+      "mainProduct": "천연및혼합조제조미료제조업",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2297,10 +2021,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "범양금속공업(주)",
-      "sector": "",
+      "sector": "철강",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "032-811-6118",
+      "mainProduct": "동압연",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -2313,10 +2039,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)한도",
-      "sector": "",
+      "sector": "기계",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-588-1212",
+      "mainProduct": "해당사항없음",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2329,10 +2057,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)씨에이시스템",
-      "sector": "",
+      "sector": "기계",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-432-2261",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -2345,10 +2075,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)대보전기",
-      "sector": "",
+      "sector": "전기",
       "location": "대구.경북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "054-774-4708",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2361,10 +2093,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)제론소프트엔",
-      "sector": "",
+      "sector": "정보처리",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-7764-0100",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2377,10 +2111,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "다함(주)",
-      "sector": "",
+      "sector": "기계",
       "location": "대구.경북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "054-473-0919",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2393,10 +2129,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "세웅소방기술(주)",
-      "sector": "",
+      "sector": "기계",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "032-812-0114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -2410,9 +2148,7 @@
     "designatedCompanyInfo": {
       "name": "에스앤피글로벌(주)",
       "sector": "",
-      "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
+      "location": "부산.울산"
     }
   },
   {
@@ -2425,26 +2161,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보성알앤디",
-      "sector": "",
+      "sector": "철강",
       "location": "전북",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "주영산업(주)",
-    "title": "페인트(도료) 생산직 구인(신입, 경력 가능)",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52617534&location=ts&searchword=%EC%82%B0%EC%97%85%EA%B8%B0%EB%8A%A5%EC%9A%94%EC%9B%90&searchType=search&paid_fl=n&search_uuid=c491e12c-8bf4-42ea-ba65-2c31e1833873",
-    "deadline": "~ 02/18(수)",
-    "sector": "기계조작원, 화공                    수정일 25/12/19",
-    "source": "saramin",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "주영산업(주)",
-      "sector": "",
-      "location": "경남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "063-714-3230",
+      "mainProduct": "기타자동차부품제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9990
     }
   },
   {
@@ -2457,10 +2179,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)세아에스에이",
-      "sector": "",
+      "sector": "전기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-8084-0014",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -2473,10 +2197,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)정진하이테크",
-      "sector": "",
+      "sector": "전기",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "042-525-0989",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2489,10 +2215,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "미르텍(주)",
-      "sector": "",
+      "sector": "기계",
       "location": "대구.경북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "053-591-0081",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2505,10 +2233,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)스페코",
-      "sector": "",
+      "sector": "민영방산",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "871-4601",
+      "mainProduct": "산업플랜트공사업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -2522,9 +2252,7 @@
     "designatedCompanyInfo": {
       "name": "에스앤피글로벌(주)",
       "sector": "",
-      "location": "부산.울산",
-      "phone": "",
-      "mainProduct": ""
+      "location": "부산.울산"
     }
   },
   {
@@ -2537,10 +2265,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -2553,10 +2283,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -2569,10 +2301,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2585,10 +2319,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2601,10 +2337,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -2617,10 +2355,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -2633,10 +2373,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2649,10 +2391,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2665,10 +2409,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -2681,10 +2427,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -2697,10 +2445,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2713,10 +2463,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2729,10 +2481,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -2745,10 +2499,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -2761,10 +2517,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2777,10 +2535,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2793,10 +2553,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -2809,10 +2571,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -2825,10 +2589,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2841,10 +2607,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2857,10 +2625,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -2873,10 +2643,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -2889,10 +2661,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2905,10 +2679,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2921,10 +2697,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -2937,10 +2715,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -2953,10 +2733,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -2969,10 +2751,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -2985,10 +2769,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3001,10 +2787,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -3017,10 +2805,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3033,10 +2823,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -3049,10 +2841,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3065,10 +2859,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -3081,10 +2877,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3097,10 +2895,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -3113,10 +2913,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3129,10 +2931,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -3145,10 +2949,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3161,10 +2967,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -3177,10 +2985,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3193,10 +3003,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -3209,10 +3021,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3225,10 +3039,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -3241,10 +3057,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3257,10 +3075,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -3273,10 +3093,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3289,10 +3111,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -3305,10 +3129,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3321,10 +3147,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -3337,10 +3165,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3353,10 +3183,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -3369,10 +3201,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3385,10 +3219,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -3401,10 +3237,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3417,10 +3255,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -3433,10 +3273,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3449,10 +3291,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -3465,10 +3309,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3481,10 +3327,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -3497,10 +3345,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3513,10 +3363,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -3529,10 +3381,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3545,10 +3399,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -3561,10 +3417,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인투알",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-997-9166",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3577,10 +3435,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "㈜우진플라임",
-      "sector": "",
+      "sector": "기계",
       "location": "충북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "043-540-9114",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 10
     }
   },
   {
@@ -3593,10 +3453,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디팜스테크",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-427-9071",
+      "mainProduct": "주형및금형제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3609,26 +3471,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)보령",
-      "sector": "",
+      "sector": "의료의약",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "지우전자㈜",
-    "title": "산업기능요원-보충역모집",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48253558",
-    "deadline": "01/17(토) 마감",
-    "sector": "",
-    "source": "jobkorea",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "지우전자(주)",
-      "sector": "",
-      "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-336-5015",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -3641,10 +3489,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)지넷시스템",
-      "sector": "",
+      "sector": "통신기기",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02--890--1605",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3657,10 +3507,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)오리엔트텔레콤",
-      "sector": "",
+      "sector": "통신기기",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-428-7932",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3673,10 +3525,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)웰크론헬스케어",
-      "sector": "",
+      "sector": "생활용품",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "032-270-4603",
+      "mainProduct": "스타킹및기타양말편조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3689,10 +3543,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)도스코",
-      "sector": "",
+      "sector": "기계",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-665-3481",
+      "mainProduct": "",
+      "activePersonnel": 3,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -3705,10 +3561,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)메인테크엔지니어링",
-      "sector": "",
+      "sector": "통신기기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "010-8228-3113",
+      "mainProduct": "해당사항없음",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3721,26 +3579,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)리비바이오",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "한국산업기계㈜",
-    "title": "산업기능요원(현역 전직희망자) 모집",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48161387",
-    "deadline": "02/01(일) 마감",
-    "sector": "",
-    "source": "jobkorea",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "한국산업기계(주)",
-      "sector": "",
-      "location": "대구.경북",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4304-0216",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3753,10 +3597,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)선우커뮤니케이션",
-      "sector": "",
+      "sector": "전자",
       "location": "경기북부",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-535-1981",
+      "mainProduct": "유선통신기기제조업",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3769,26 +3615,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "서우실업(주)",
-      "sector": "",
+      "sector": "기계",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "진한공업",
-    "title": "[도블레] 병역특례, 산업기능요원 현역 모집(기술은 남고, 군대는 안 간다)",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48244962",
-    "deadline": "01/15(목) 마감",
-    "sector": "",
-    "source": "jobkorea",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "진한공업(주)",
-      "sector": "",
-      "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "032-821-6401",
+      "mainProduct": "기체펌프및압축기제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3801,10 +3633,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3817,10 +3651,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)코텍",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-447-4693",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3833,10 +3669,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)정광",
-      "sector": "",
+      "sector": "철강",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-433-7678",
+      "mainProduct": "기타조립금속제품제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -3849,10 +3687,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)한국클라우드",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-5001-2271",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3865,10 +3705,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)더줌코리아",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "010-7600-6809",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3882,25 +3724,7 @@
     "designatedCompanyInfo": {
       "name": "에스에스케이",
       "sector": "",
-      "location": "경인",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "한국학술정보㈜",
-    "title": "한국학술정보(주) 보충역 산업기능요원 생산직 모집",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48115916",
-    "deadline": "상시채용",
-    "sector": "",
-    "source": "jobkorea",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "한국학술정보(주)",
-      "sector": "",
-      "location": "경기북부",
-      "phone": "",
-      "mainProduct": ""
+      "location": "경인"
     }
   },
   {
@@ -3913,10 +3737,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3929,10 +3755,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)더줌코리아",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "010-7600-6809",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3945,10 +3773,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)게임엔",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-6374-3101",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3961,10 +3791,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)이스트게임즈",
-      "sector": "",
+      "sector": "게임S/W",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-8850-8344",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3977,10 +3809,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)바텍",
-      "sector": "",
+      "sector": "전자",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "0313799526",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -3993,10 +3827,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)핑거",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02--799--2548",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4009,10 +3845,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4025,10 +3863,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "드림메카텍",
-      "sector": "",
+      "sector": "철강",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-366-5623",
+      "mainProduct": "",
+      "activePersonnel": 4,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4041,10 +3881,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4057,10 +3899,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4073,10 +3917,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4089,26 +3935,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)엔티에스",
-      "sector": "",
+      "sector": "기계",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "퓨렌스㈜",
-    "title": "산업기능요원(보충역) 시스템 엔지니어(SE) 채용",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48222515",
-    "deadline": "01/11(일) 마감",
-    "sector": "",
-    "source": "jobkorea",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "퓨렌스(주)",
-      "sector": "",
-      "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-551-9650",
+      "mainProduct": "물질검사·측정및분석기구제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -4121,10 +3953,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4137,10 +3971,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)모두싸인",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-5118-1226",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4153,10 +3989,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4169,10 +4007,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)제이엘케이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4651-0560",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4185,10 +4025,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4201,10 +4043,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4217,10 +4061,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4233,10 +4079,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4249,10 +4097,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)폴리큐브",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-554-6295",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4265,10 +4115,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)새한텅스텐",
-      "sector": "",
+      "sector": "전기",
       "location": "경기북부",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-529-3333",
+      "mainProduct": "전구및램프제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -4281,10 +4133,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "넛지헬스케어(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4942-6856",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4297,10 +4151,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)케이케이디씨",
-      "sector": "",
+      "sector": "전기",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-942-9332",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4313,10 +4169,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)아이체",
-      "sector": "",
+      "sector": "생활용품",
       "location": "경기북부",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-592-2926",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -4329,10 +4187,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)파마리서치",
-      "sector": "",
+      "sector": "의료의약",
       "location": "강원영동",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-8039-1534",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -4345,10 +4205,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "드림메카텍",
-      "sector": "",
+      "sector": "철강",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-366-5623",
+      "mainProduct": "",
+      "activePersonnel": 4,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4361,10 +4223,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "씨엔모터스",
-      "sector": "",
+      "sector": "기계",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "032-575-3966",
+      "mainProduct": "",
+      "activePersonnel": 4,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -4377,10 +4241,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "씨엔모터스",
-      "sector": "",
+      "sector": "기계",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "032-575-3966",
+      "mainProduct": "",
+      "activePersonnel": 4,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -4393,10 +4259,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)지엠디소프트",
-      "sector": "",
+      "sector": "정보처리",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-778-3511",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4409,10 +4277,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)마음에이아이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-625-4343",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4425,10 +4295,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)윈텍오토메이션",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-202-7111",
+      "mainProduct": "",
+      "activePersonnel": 3,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4441,10 +4313,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)오스테오닉",
-      "sector": "",
+      "sector": "의료의약",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "026-902-8400",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4457,10 +4331,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "삼전순약공업(주)",
-      "sector": "",
+      "sector": "화학",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-668-0701",
+      "mainProduct": "해당사항없음",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4473,10 +4349,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)오스테오닉",
-      "sector": "",
+      "sector": "의료의약",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "026-902-8400",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4489,10 +4367,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)오스테오닉",
-      "sector": "",
+      "sector": "의료의약",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "026-902-8400",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4505,10 +4385,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)오스테오닉",
-      "sector": "",
+      "sector": "의료의약",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "026-902-8400",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4521,10 +4403,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)오스테오닉",
-      "sector": "",
+      "sector": "의료의약",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "026-902-8400",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4537,10 +4421,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "데브시스터즈(주)",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-8828-9699",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4553,10 +4439,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에너자이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-883-1231",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4569,10 +4457,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "맥스타산업(주)",
-      "sector": "",
+      "sector": "전기",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-989-3543",
+      "mainProduct": "해당사항없음",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -4585,10 +4475,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "아셈테크(주)",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-664-8730",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4601,10 +4493,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에너자이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-883-1231",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4617,10 +4511,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)엔씨씨",
-      "sector": "",
+      "sector": "정보처리",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "042-935-0117",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -4633,10 +4529,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)수일개발",
-      "sector": "",
+      "sector": "의료의약",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-3463-0041",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4649,10 +4547,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)누리랩",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-2671-3344",
+      "mainProduct": "소프트웨어자문",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4665,26 +4565,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)더한기술",
-      "sector": "",
+      "sector": "기계",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "팸텍㈜",
-    "title": "팸텍(주) 설비기술팀 경력직 채용(자동화장비 조립)",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48329517",
-    "deadline": "02/01(일) 마감",
-    "sector": "",
-    "source": "jobkorea",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "팸텍㈜",
-      "sector": "",
-      "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "042-932-4017",
+      "mainProduct": "공기조화장치제조업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -4697,26 +4583,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)한도",
-      "sector": "",
+      "sector": "기계",
       "location": "대전.충남",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "한국로스트왁스㈜",
-    "title": "[인사 총무] 한국로스트왁스(주) 정규 관리직 모집",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48242934",
-    "deadline": "02/14(토) 마감",
-    "sector": "",
-    "source": "jobkorea",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "한국로스트왁스(주)",
-      "sector": "",
-      "location": "인천",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "041-588-1212",
+      "mainProduct": "해당사항없음",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 0
     }
   },
   {
@@ -4729,10 +4601,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)미봉하이텍",
-      "sector": "",
+      "sector": "전자",
       "location": "광주.전남",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "062-953-5588",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -4745,10 +4619,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)인프랩",
-      "sector": "",
+      "sector": "정보처리",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4948-1180",
+      "mainProduct": "컴퓨터및패키지소프트웨어도매업",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4761,10 +4637,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)얼라인드제네틱스",
-      "sector": "",
+      "sector": "기계",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-689-4164",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4777,10 +4655,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)엔키화이트햇",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-402-1337",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4793,26 +4673,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "몬드리안에이아이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "올거나이즈코리아㈜",
-    "title": "Jr. React Front-end 엔지니어",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48257023",
-    "deadline": "01/17(토) 마감",
-    "sector": "",
-    "source": "jobkorea",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "올거나이즈코리아(주)",
-      "sector": "",
-      "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "032-713-7984",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -4825,42 +4691,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "몬드리안에이아이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "인천",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "올거나이즈코리아㈜",
-    "title": "고객사 On-prem 엔지니어 (DevOps)",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48257012",
-    "deadline": "01/17(토) 마감",
-    "sector": "",
-    "source": "jobkorea",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "올거나이즈코리아(주)",
-      "sector": "",
-      "location": "서울",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "올거나이즈코리아㈜",
-    "title": "Python Back-end Engineer",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48203774",
-    "deadline": "01/09(금) 마감",
-    "sector": "",
-    "source": "jobkorea",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "올거나이즈코리아(주)",
-      "sector": "",
-      "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "032-713-7984",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 999
     }
   },
   {
@@ -4873,10 +4709,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)엔키화이트햇",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-402-1337",
+      "mainProduct": "",
+      "activePersonnel": 2,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4889,42 +4727,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디케이아이테크놀로지",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "코리아인스트루먼트㈜",
-    "title": "국제교정기관 IT개발실 SW개발자 경력직 모집",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48310381",
-    "deadline": "01/28(수) 마감",
-    "sector": "",
-    "source": "jobkorea",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "코리아인스트루먼트",
-      "sector": "",
-      "location": "경인",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "코리아인스트루먼트㈜",
-    "title": "국제교정기관 IT개발실 SW개발자 모집",
-    "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/48120411",
-    "deadline": "01/25(일) 마감",
-    "sector": "",
-    "source": "jobkorea",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "코리아인스트루먼트",
-      "sector": "",
-      "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-780-1340",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4937,10 +4745,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)디케이아이테크놀로지",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-780-1340",
+      "mainProduct": "",
+      "activePersonnel": 1,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4953,10 +4763,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)미어캣게임즈",
-      "sector": "",
+      "sector": "게임S/W",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4335-0361",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4969,10 +4781,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)에너자이",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "02-883-1231",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -4985,10 +4799,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)이스트게임즈",
-      "sector": "",
+      "sector": "게임S/W",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-8850-8344",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -5001,10 +4817,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)이스트게임즈",
-      "sector": "",
+      "sector": "게임S/W",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-8850-8344",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -5017,10 +4835,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)플레이링스",
-      "sector": "",
+      "sector": "정보처리",
       "location": "경인",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "031-702-8818",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -5033,10 +4853,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "누비랩",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "010-8012-5506",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -5049,10 +4871,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)모두싸인",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-5118-1226",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -5065,10 +4889,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)리비바이오",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4304-0216",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -5081,10 +4907,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)소프트스퀘어드",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "070-4001-4087",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   },
   {
@@ -5097,26 +4925,12 @@
     "isDesignated": true,
     "designatedCompanyInfo": {
       "name": "(주)세나클",
-      "sector": "",
+      "sector": "정보처리",
       "location": "서울",
-      "phone": "",
-      "mainProduct": ""
-    }
-  },
-  {
-    "company": "전능아이티",
-    "title": "[Smartdoctor] 산업기능요원(보충역) 개발자",
-    "link": "https://www.wanted.co.kr/wd/75585",
-    "deadline": "상시채용",
-    "sector": "IT/SW",
-    "source": "wanted",
-    "isDesignated": true,
-    "designatedCompanyInfo": {
-      "name": "전능아이티(주)",
-      "sector": "",
-      "location": "서울",
-      "phone": "",
-      "mainProduct": ""
+      "phone": "026-203-1234",
+      "mainProduct": "",
+      "activePersonnel": 0,
+      "supplementaryPersonnel": 9999
     }
   }
 ]
