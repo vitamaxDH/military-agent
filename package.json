@@ -1,0 +1,26 @@
+{
+  "name": "military-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch:companies": "npx ts-node scripts/fetch_companies.ts",
+    "fetch:jobs": "npx ts-node scripts/fetch_jobs.ts",
+    "aggregate": "npx ts-node scripts/aggregate.ts",
+    "dev:web": "cd web && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^25.0.3",
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

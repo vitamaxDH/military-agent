@@ -1,0 +1,20 @@
+node_modules
+.DS_Store
+.env
+.env.local
+.next/
+out/
+build/
+coverage/
+
+# Scraping Data (Keep logs/results optional, but usually data is gitignored if large)
+# However, user's setup relies on them. I'll include them for now as they are small JSONs, 
+# except maybe very large raw dumps. User has 6000 companies, ~2MB. It's fine for git.
+# data/
+# public/data/
+
+# Logs
+debug_*.html
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
