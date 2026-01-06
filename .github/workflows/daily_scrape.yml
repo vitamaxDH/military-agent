@@ -15,24 +15,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: '20'
-          cache: 'npm'
+          bun-version: latest
 
       - name: Install Dependencies
-        run: npm ci
+        run: bun install
 
       - name: Run Scrapers
         run: |
-          npx ts-node scripts/scrapers/mma.ts
-          npx ts-node scripts/scrapers/saramin.ts
-          npx ts-node scripts/scrapers/jobkorea.ts
-          npx ts-node scripts/scrapers/wanted.ts
+          bun scripts/scrapers/mma_scheduler.ts
+          bun scripts/scrapers/saramin.ts
+          bun scripts/scrapers/jobkorea.ts
+          bun scripts/scrapers/wanted.ts
 
       - name: Aggregate Data
-        run: npx ts-node scripts/aggregate.ts
+        run: bun scripts/aggregate.ts
 
       - name: Commit and Push
         run: |
