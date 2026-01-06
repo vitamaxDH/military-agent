@@ -153,7 +153,6 @@ export default function Home() {
   );
 
   return (
-  return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-gray-800 via-gray-900 to-black text-gray-100 font-sans relative overflow-hidden">
 
       {/* Taegeuk Inspired Background Elements (Subtle) */}
