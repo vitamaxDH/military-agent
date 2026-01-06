@@ -8,6 +8,7 @@ function normalizeName(name: string): string {
         .replace(/\(유\)/g, '')
         .replace(/주식회사/g, '')
         .replace(/유한회사/g, '')
+        .replace(/[㈜㈔]/g, '') // Remove unicode chars
         .replace(/\s+/g, '')
         .trim();
 }
