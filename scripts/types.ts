@@ -15,6 +15,7 @@ export interface Job {
     deadline: string;
     sector: string;
     source: 'saramin' | 'jobkorea' | 'jumpit' | 'wanted';
+    salary?: string;
 }
 
 export interface MatchedJob extends Job {

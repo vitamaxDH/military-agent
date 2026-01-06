@@ -19,6 +19,7 @@ export const JobSchema = z.object({
     deadline: z.string(),
     sector: z.string(),
     source: z.enum(['saramin', 'jobkorea', 'jumpit', 'wanted']),
+    salary: z.string().optional(),
     isDesignated: z.boolean().optional(),
     designatedCompanyInfo: CompanySchema.optional(),
 });

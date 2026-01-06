@@ -48,6 +48,10 @@ async function fetchJobs() {
                 const link = linkPath ? `https://www.saramin.co.kr${linkPath}` : '';
                 const deadline = item.find('.area_job .job_date .date').text().trim();
                 const sector = item.find('.area_job .job_sector').text().trim();
+                const salary = item.find('.area_job .job_condition span').filter((_, el) => {
+                    const t = $(el).text();
+                    return t.includes('연봉') || t.includes('만원') || t.includes('면접') || t.includes('내규');
+                }).text().trim();
 
                 if (company && title) {
                     jobs.push({
@@ -56,7 +60,8 @@ async function fetchJobs() {
                         link,
                         deadline,
                         sector,
-                        source: 'saramin'
+                        source: 'saramin',
+                        salary: salary || undefined,
                     });
                 }
             });

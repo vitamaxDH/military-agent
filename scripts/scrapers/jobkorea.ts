@@ -95,6 +95,13 @@ async function fetchJobKorea() {
                         }
                     }
 
+                    // Extract Salary
+                    let salary = undefined;
+                    const salaryMatch = text.match(/연봉\s*[0-9,]+만원|[0-9,]+만원|면접후\s*결정|회사내규/);
+                    if (salaryMatch) {
+                        salary = salaryMatch[0];
+                    }
+
                     if (company && title) {
                         if (!processedUrls.has(id)) {
                             jobs.push({
@@ -103,7 +110,8 @@ async function fetchJobKorea() {
                                 link,
                                 deadline: deadline || '상시채용',
                                 sector: '',
-                                source: 'jobkorea'
+                                source: 'jobkorea',
+                                salary: salary,
                             });
                             processedUrls.add(id);
                         }

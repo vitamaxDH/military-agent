@@ -68,8 +68,16 @@ export const JobCard: React.FC<JobCardProps> = ({ job, viewMode }) => {
                         <h3 className="text-lg font-bold text-white leading-tight group-hover:text-blue-300 transition-colors mb-1 break-keep">
                             {job.title}
                         </h3>
-                        <div className="text-gray-400 text-sm font-medium mb-2">
-                            {job.company}
+                        <div className="flex items-center gap-2 text-sm font-medium mb-2">
+                            <span className="text-gray-400">{job.company}</span>
+                            {job.salary && (
+                                <span className={`text-[10px] font-medium px-1.5 py-0.5 rounded border ${job.salary.includes('만원')
+                                    ? 'text-green-400 bg-green-900/30 border-green-800/50'
+                                    : 'text-gray-400 bg-gray-800 px-1.5 py-0.5 border-gray-700'
+                                    }`}>
+                                    {job.salary}
+                                </span>
+                            )}
                         </div>
                     </div>
 
@@ -107,8 +115,16 @@ export const JobCard: React.FC<JobCardProps> = ({ job, viewMode }) => {
                     <h3 className="text-base font-bold text-white group-hover:text-blue-300 transition-colors">
                         {job.title}
                     </h3>
-                    <div className="text-gray-400 text-sm mt-1">
-                        {job.company}
+                    <div className="flex items-center gap-2 text-sm mt-1">
+                        <span className="text-gray-400">{job.company}</span>
+                        {job.salary && (
+                            <span className={`text-xs font-medium px-1.5 py-0.5 rounded border ${job.salary.includes('만원')
+                                ? 'text-green-400 bg-green-900/30 border-green-800/50'
+                                : 'text-gray-400 bg-gray-800 px-1.5 py-0.5 border-gray-700'
+                                }`}>
+                                {job.salary}
+                            </span>
+                        )}
                     </div>
                 </div>
 
