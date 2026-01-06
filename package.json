@@ -8,6 +8,7 @@
     "fetch:companies": "npx ts-node scripts/fetch_companies.ts",
     "fetch:jobs": "npx ts-node scripts/fetch_jobs.ts",
     "aggregate": "npx ts-node scripts/aggregate.ts",
+    "scrape:full": "bun scripts/scrapers/mma_scheduler.ts && bun scripts/aggregate.ts",
     "dev:web": "cd web && npm run dev"
   },
   "keywords": [],

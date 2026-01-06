@@ -54,6 +54,17 @@ async function aggregate() {
         console.warn('Warning: jobs_jobkorea.json missing.');
     }
 
+    // Wanted
+    const wantedPath = path.join(dataDir, 'jobs_wanted.json');
+    if (fs.existsSync(wantedPath)) {
+        const wantedJobs: Job[] = JSON.parse(fs.readFileSync(wantedPath, 'utf-8'));
+        console.log(`Loaded ${wantedJobs.length} jobs from Wanted.`);
+        allJobs = allJobs.concat(wantedJobs);
+    } else {
+        console.warn('Warning: jobs_wanted.json missing.');
+    } // End Wanted Process Logic matches aggregation logic 
+
+
     console.log(`Total jobs to process: ${allJobs.length}`);
 
     // Build Company Map for O(1) matching

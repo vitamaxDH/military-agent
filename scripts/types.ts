@@ -4,6 +4,8 @@ export interface Company {
     location: string;
     phone?: string;
     mainProduct?: string;
+    activePersonnel?: number;
+    supplementaryPersonnel?: number;
 }
 
 export interface Job {
