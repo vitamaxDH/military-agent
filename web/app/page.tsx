@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { JobCard } from '../components/JobCard';
+import { SkeletonJobCard } from '../components/SkeletonJobCard';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { FilterBar } from '../components/FilterBar';
@@ -62,8 +63,10 @@ export default function Home() {
         />
 
         {loading ? (
-          <div className="flex justify-center items-center h-64">
-            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {Array.from({ length: 6 }).map((_, idx) => (
+              <SkeletonJobCard key={idx} />
+            ))}
           </div>
         ) : (
           <>

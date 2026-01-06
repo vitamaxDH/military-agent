@@ -1,35 +1,12 @@
 import React from 'react';
 import { Job } from '../types';
+import { calculateDDay } from '../utils';
+import { Icons } from './Icons';
 
 interface JobCardProps {
     job: Job;
     viewMode: 'grid' | 'list';
 }
-
-const calculateDDay = (deadlineStr: string): number | null => {
-    if (!deadlineStr) return null;
-    if (deadlineStr.includes("오늘마감")) return 0;
-    if (deadlineStr.includes("채용시") || deadlineStr.includes("상시")) return 999;
-
-    const match = deadlineStr.match(/(\d{2})\/(\d{2})/);
-    if (match) {
-        const month = parseInt(match[1], 10);
-        const day = parseInt(match[2], 10);
-
-        const now = new Date();
-        const currentYear = now.getFullYear();
-        let targetDate = new Date(currentYear, month - 1, day);
-
-        if (targetDate < now && (now.getMonth() > month)) {
-            targetDate.setFullYear(currentYear + 1);
-        }
-
-        const diffTime = targetDate.getTime() - now.getTime();
-        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-        return diffDays;
-    }
-    return null;
-};
 
 const getDDayLabel = (days: number | null) => {
     if (days === null) return "";
@@ -100,7 +77,7 @@ export const JobCard: React.FC<JobCardProps> = ({ job, viewMode }) => {
                         <span>{job.deadline}</span>
                         {job.isDesignated && (
                             <div className="flex items-center text-blue-400" title="병역지정업체 검증됨">
-                                <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
+                                <Icons.BadgeCheck className="w-4 h-4 mr-1" />
                                 지정업체
                             </div>
                         )}
@@ -122,7 +99,7 @@ export const JobCard: React.FC<JobCardProps> = ({ job, viewMode }) => {
                         <span className="text-xs text-gray-400">{job.designatedCompanyInfo?.location || '지역 미정'}</span>
                         {job.isDesignated && (
                             <span className="flex items-center text-blue-400 text-[10px]" title="병역지정업체 검증됨">
-                                <svg className="w-3 h-3 mr-0.5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
+                                <Icons.BadgeCheck className="w-3 h-3 mr-0.5" />
                                 지정
                             </span>
                         )}
