@@ -4,8 +4,15 @@ import { Worker } from "worker_threads";
 import fs from "fs";
 import path from "path";
 var __dirname = "/Users/daehan/project/personal/military-agent/scripts/scrapers";
-var MAX_PAGES = 50;
-var CONCURRENCY = 2;
+var args = process.argv.slice(2);
+var getArg = (key, Default) => {
+  const index = args.indexOf(key);
+  return index > -1 ? parseInt(args[index + 1], 10) : Default;
+};
+var DEFAULT_MAX_PAGES = 50;
+var DEFAULT_CONCURRENCY = 5;
+var MAX_PAGES = getArg("--limit", DEFAULT_MAX_PAGES);
+var CONCURRENCY = getArg("--concurrency", DEFAULT_CONCURRENCY);
 async function main() {
   console.log(`[Scheduler] Starting multi-core scraping with ${CONCURRENCY} workers for max ${MAX_PAGES} pages...`);
   let allCompanies = [];
@@ -22,7 +29,7 @@ async function main() {
       };
       worker.onerror = (err) => {
         console.error("Worker error:", err);
-        reject(err);
+        resolve([]);
         worker.terminate();
       };
     });
