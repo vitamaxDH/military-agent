@@ -88,7 +88,7 @@ async function processPage(pageIndex: number) {
 
         const items = rows.toArray();
         // Process in chunks within the worker
-        const CHUNK_SIZE = 10; // Reduced from 50 to 10
+        const CHUNK_SIZE = 10; // 10 proved reliable
         for (let i = 0; i < items.length; i += CHUNK_SIZE) {
             const chunk = items.slice(i, i + CHUNK_SIZE);
             const promises = chunk.map(async (element) => {
@@ -118,6 +118,7 @@ async function processPage(pageIndex: number) {
             results.forEach(res => {
                 if (res) companies.push(res);
             });
+            console.log(`[Worker] Page ${pageIndex}: Processed ${Math.min(i + CHUNK_SIZE, items.length)}/${items.length} items`);
         }
         console.log(`[Worker] Page ${pageIndex} done. Found ${companies.length} companies.`);
         return companies;
