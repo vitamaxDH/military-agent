@@ -18,3 +18,8 @@ debug_*.html
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Local automation logs and scripts
+logs/
+scripts/mma.sh
+scripts/*.plist
