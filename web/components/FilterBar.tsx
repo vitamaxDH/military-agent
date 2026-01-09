@@ -48,47 +48,67 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 </div>
 
                 <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 no-scrollbar">
-                    <select
-                        value={selectedSource}
-                        onChange={(e) => setSelectedSource(e.target.value)}
-                        className="px-4 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    >
-                        <option value="All">모든 플랫폼</option>
-                        <option value="saramin">사람인</option>
-                        <option value="jobkorea">잡코리아</option>
-                        <option value="wanted">원티드</option>
-                    </select>
+                    <div className="relative">
+                        <select
+                            value={selectedSource}
+                            onChange={(e) => setSelectedSource(e.target.value)}
+                            className="px-4 pr-10 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 appearance-none"
+                        >
+                            <option value="All">모든 플랫폼</option>
+                            <option value="saramin">사람인</option>
+                            <option value="jobkorea">잡코리아</option>
+                            <option value="wanted">원티드</option>
+                        </select>
+                        <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
+                            <Icons.ChevronDown className="h-4 w-4" />
+                        </div>
+                    </div>
 
-                    <select
-                        value={selectedRegion}
-                        onChange={(e) => setSelectedRegion(e.target.value)}
-                        className="px-4 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    >
-                        {regions.map(r => (
-                            <option key={r} value={r}>{r === 'All' ? '전체 지역' : r}</option>
-                        ))}
-                    </select>
+                    <div className="relative">
+                        <select
+                            value={selectedRegion}
+                            onChange={(e) => setSelectedRegion(e.target.value)}
+                            className="px-4 pr-10 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 appearance-none"
+                        >
+                            {regions.map(r => (
+                                <option key={r} value={r}>{r === 'All' ? '전체 지역' : r}</option>
+                            ))}
+                        </select>
+                        <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
+                            <Icons.ChevronDown className="h-4 w-4" />
+                        </div>
+                    </div>
 
-                    <select
-                        value={selectedSector}
-                        onChange={(e) => setSelectedSector(e.target.value)}
-                        className="px-4 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 max-w-[140px]"
-                    >
-                        {sectors.map(s => (
-                            <option key={s} value={s}>
-                                {s === 'All' ? '전체 업종' : (s === '정보처리' ? 'IT / 정보처리' : s)}
-                            </option>
-                        ))}
-                    </select>
+                    <div className="relative">
+                        <select
+                            value={selectedSector}
+                            onChange={(e) => setSelectedSector(e.target.value)}
+                            className="px-4 pr-10 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 max-w-[140px] appearance-none"
+                        >
+                            {sectors.map(s => (
+                                <option key={s} value={s}>
+                                    {s === 'All' ? '전체 업종' : (s === '정보처리' ? 'IT / 정보처리' : s)}
+                                </option>
+                            ))}
+                        </select>
+                        <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
+                            <Icons.ChevronDown className="h-4 w-4" />
+                        </div>
+                    </div>
 
-                    <select
-                        value={sortBy}
-                        onChange={(e) => setSortBy(e.target.value)}
-                        className="px-4 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    >
-                        <option value="deadline">마감임박순</option>
-                        <option value="recent">관련도순</option>
-                    </select>
+                    <div className="relative">
+                        <select
+                            value={sortBy}
+                            onChange={(e) => setSortBy(e.target.value)}
+                            className="px-4 pr-10 py-3 rounded-xl bg-gray-800 border border-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 appearance-none"
+                        >
+                            <option value="deadline">마감임박순</option>
+                            <option value="recent">관련도순</option>
+                        </select>
+                        <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
+                            <Icons.ChevronDown className="h-4 w-4" />
+                        </div>
+                    </div>
                 </div>
             </div>
 
