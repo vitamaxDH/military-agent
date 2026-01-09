@@ -17,6 +17,8 @@ export const metadata: Metadata = {
   description: "산업기능요원 채용 공고 모음 (사람인/잡코리아)",
 };
 
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -29,6 +31,7 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <GoogleAnalytics gaId="G-ZT3EP27HPT" />
     </html>
   );
 }
